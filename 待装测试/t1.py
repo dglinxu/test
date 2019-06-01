@@ -8,7 +8,7 @@
 # @项目名称：待装测试
 # @文 件 名：t1.py
 # @修改时间：2019/3/6 20:29
-# @文件说明而高科技开发
+# @文件说明:而高科技开发dfe fjiezesid fieiw sl
 """"""""""""""""""""""""""
 import openpyxl as op
 from openpyxl.styles import colors
@@ -23,7 +23,9 @@ ws2.title='第二页'
 ws1['a1']='第一页的第一个单元格'
 ws2['a1']=datetime.date.today()
 ws3=wb.create_sheet('第三页',0)
-
+fefe 
 ws3=wb.copy_worksheet(ws1)
 ws3['a1'].font=ft
 wb.save('test.xls')
+FileFinder(path, *loader_details)
+print('fiefwifief ')
