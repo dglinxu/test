@@ -8,7 +8,7 @@
 # @项目名称：待装测试
 # @文 件 名：t1.py
 # @修改时间：2019/3/6 20:29
-# @文件说明：
+# @文件说明而高科技开发
 """"""""""""""""""""""""""
 import openpyxl as op
 from openpyxl.styles import colors
