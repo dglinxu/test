@@ -1,47 +1,31 @@
 #!/usr/bin/env python
-#-*- coding: UTF-8 -*-
-"""
---------------------------------
-   工程名称:数据结构与算法
-   文件名称:temp.py
-   作   者:资源
-   邮   箱:humen@189.cn
-   创建时间:2018-12-18  11:10
-   使用软件:PyCharm
--------------------------------
-   描   述:
---------------------------------
-"""
+# -*- encoding: utf-8 -*-
+'''''''''''''''''''''''''''
+@文件名称 : temp.py
+@项目名称 : gittest
+@修改时间 : 2019/06/23 16:29:47
+@程序作者 : 虎门资源
+@编辑软件 : Visual Studio Code
+@程序版本 : V1.0
+@联系方式 : humen@189.cn
+@License : (C)Copyright 2017-2019, DongGong Humen
+@文件说明 : None
+@存在问题 : 
+'''''''''''''''''''''''''''
+#-------------------------------
+#描   述:                       
+#-------------------------------
+# here put the import lib
+strs=["flower","flow","flight"]
+for tmp in zip(*strs):
+    tmp_set=set(tmp)
+    print(tmp_set)
 
-
-def rotateString(s):
-    if not s:
-        return True
-
-    l, r = 0, len(s) - 1
-
-    while l < r:
-        # find left alphanumeric character
-        if not s[l].isalnum():
-            l += 1
-            continue
-        # find right alphanumeric character
-        if not s[r].isalnum():
-            r -= 1
-            continue
-        # case insensitive compare
-        if s[l].lower() == s[r].lower():
-            l += 1
-            r -= 1
-        else:
-            return False
-    #
-    return True
-
-
-
-s='face book is a app'
-t=8
-
-
-print(rotateString(s))
+print(list(zip(*strs)))        
+       res = ""
+        # for tmp in zip(*strs):
+        #     tmp_set = set(tmp)
+        #     if len(tmp_set) == 1:
+        #         res += tmp[0]
+        #     else:
+        #         break

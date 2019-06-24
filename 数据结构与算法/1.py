@@ -1,7 +1,19 @@
-nums=[0,0,0,1,2,2,5,6,7,8,8]
-l=len(nums)
-t=[nums[0]]
-for i in range(1,l):
-    if nums[i-1]!=nums[i]:
-        t.append(nums[i])
-print(t)
+def lengthOfLongestSubstring(self, s: str) :
+    if not s:return 0
+    left = 0
+    lookup = set()
+    n = len(s)
+    max_len = 0
+    cur_len = 0
+    for i in range(n):
+        cur_len += 1
+        while s[i] in lookup:
+            lookup.remove(s[left])
+            left += 1
+            cur_len -= 1
+            print(lookup)
+        if cur_len > max_len:max_len = cur_len
+        lookup.add(s[i])
+    return max_len
+s="abcabcbb"
+print(lengthOfLongestSubstring(s))
