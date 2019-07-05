@@ -20,9 +20,10 @@ strs=["flower","flow","flight"]
 for tmp in zip(*strs):
     tmp_set=set(tmp)
     print(tmp_set)
-
-print(list(zip(*strs)))        
-       res = ""
+def f1():
+       print('hello')
+ print(list(zip(*strs)))        
+       # res = ""
         # for tmp in zip(*strs):
         #     tmp_set = set(tmp)
         #     if len(tmp_set) == 1:
