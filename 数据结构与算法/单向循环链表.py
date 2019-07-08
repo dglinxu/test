@@ -12,98 +12,101 @@
 @文件说明 : None
 @存在问题 : 
 '''''''''''''''''''''''''''
-#-------------------------------
-#描   述:                       
-#-------------------------------
+# -------------------------------
+# 描   述:
+# -------------------------------
 # here put the import lib
+
+
 class Node(object):
-    def __init__(self,elem):
-        self.elem=elem
-        self.next=None
+    def __init__(self, elem):
+        self.elem = elem
+        self.next = None
+
 
 class SingleLinkList(object):
-    def __init__(self,node=None):
-        self.__head=node
+    def __init__(self, node=None):
+        self.__head = node
         if node:
-            node.next=node
+            node.next = node
 
     def is_empty(self):
-        return self.__head==None
+        return self.__head == None
 
     def length(self):
-        cur=self.__head
+        cur = self.__head
         if self.is_empty():
             return 0
-        count=1
-        while cur.next!=self.__head:
-            count+=1
-            cur=cur.next
+        count = 1
+        while cur.next != self.__head:
+            count += 1
+            cur = cur.next
         return count
-    
+
     def travel(self):
         if self.is_empty():
             return
-        cur=self.__head
-        while cur.next!=self.__head:
-            print(cur.elem,end=' ')
-            cur=cur.next
+        cur = self.__head
+        while cur.next != self.__head:
+            print(cur.elem, end=' ')
+            cur = cur.next
         print(cur.elem)
-        
-    def add_front(self,item):
-        node=Node(item)
-        node.next=self.__head
-        self.__head=node
 
-    def add_rear(self,item):
-        node=Node(item)
-        if self.__head==None:
-            self.__head=node
+    def add_front(self, item):
+        node = Node(item)
+        node.next = self.__head
+        self.__head = node
+
+    def add_rear(self, item):
+        node = Node(item)
+        if self.__head == None:
+            self.__head = node
         else:
-            cur=self.__head
-            while cur.next!=self.__head:
-                cur=cur.next
-            cur.next=node
+            cur = self.__head
+            while cur.next != self.__head:
+                cur = cur.next
+            cur.next = node
 
-    def insert(self,pos,item):
-        node=Node(item)
-        cur=self.__head
-        count=0
-        if pos<=0:
-           self.add_front(item)
-        elif pos>self.length()-1:
-             self.add_rear(item)
+    def insert(self, pos, item):
+        node = Node(item)
+        cur = self.__head
+        count = 0
+        if pos <= 0:
+            self.add_front(item)
+        elif pos > self.length()-1:
+            self.add_rear(item)
         else:
-            while count<pos-1:
-                count+=1
-                cur=cur.next
-            node.next=cur.next
-            cur.next=node
+            while count < pos-1:
+                count += 1
+                cur = cur.next
+            node.next = cur.next
+            cur.next = node
 
-    def search(self,item):
-        cur=self.__head
-        while cur!=None:
-            if cur.elem==item:
+    def search(self, item):
+        cur = self.__head
+        while cur != None:
+            if cur.elem == item:
                 return True
             else:
-                cur=cur.next
+                cur = cur.next
         return False
 
-    def remove(self,item):
-        cur=self.__head
-        if cur.elem==item:
-            self.__head=cur.next
+    def remove(self, item):
+        cur = self.__head
+        if cur.elem == item:
+            self.__head = cur.next
             return True
-        while cur.next!=None:
-            if cur.next.elem==item:
-                cur.next=cur.next.next
+        while cur.next != None:
+            if cur.next.elem == item:
+                cur.next = cur.next.next
                 return True
             else:
-                cur=cur.next
+                cur = cur.next
         return False
 
 
-if __name__=='__main__':
-    sll=SingleLinkList()
+if __name__ == '__main__':
+    sll = SingleLinkList()
     print(sll.is_empty())
     print(sll.length())
     # sll.add_front(10)
@@ -112,7 +115,7 @@ if __name__=='__main__':
     sll.add_rear(20)
     # sll.insert(1,"我是插入值")
     print('单向循环链表所有元素是:')
-    sll.travel()   
-    print('单向链表长度是：%d'%(sll.length()))
+    sll.travel()
+    print('单向链表长度是：%d' % (sll.length()))
     # print(sll.remove(50))
     # sll.travel()

@@ -1,5 +1,6 @@
-def lengthOfLongestSubstring(self, s: str) :
-    if not s:return 0
+def lengthOfLongestSubstring(self, s: str):
+    if not s:
+        return 0
     left = 0
     lookup = set()
     n = len(s)
@@ -12,8 +13,11 @@ def lengthOfLongestSubstring(self, s: str) :
             left += 1
             cur_len -= 1
             print(lookup)
-        if cur_len > max_len:max_len = cur_len
+        if cur_len > max_len:
+            max_len = cur_len
         lookup.add(s[i])
     return max_len
-s="abcabcbb"
+
+
+s = "abcabcbb"
 print(lengthOfLongestSubstring(s))
