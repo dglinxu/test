@@ -19,12 +19,20 @@
 # here put the import lib
 num = int(input('请输入需要判断的数：'))
 temp = num
-num_list = []
+t=0
 while temp > 0:
-    temp = temp % 10
-    num_list.append(temp)
-sum = 0
-for i in num_list:
-    sum = sum*10+i
-if sum == num:
+    t=t*10+temp%10
+    temp = temp // 10
+    
+if t==num:
     print('%d是回环数。' % num)
+else:
+    print('%d不是回环数。' % num)
+
+s=str(num)
+
+
+if s==s[::-1]:
+    print('%d是回环数。' % num)
+else:
+    print('%d不是回环数。' % num)
