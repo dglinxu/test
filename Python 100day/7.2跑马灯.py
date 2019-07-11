@@ -3,13 +3,13 @@ import time
 
 
 def main():
-    content = '北京欢迎你为你开天辟地…………'
+    content = '>>>>>虎 门 人 民 欢 迎 您>>>>>'
     while True:
         # 清理屏幕上的输出
         os.system('cls')  # os.system('clear')
         print(content)
         # 休眠200毫秒
-        time.sleep(0.2)
+        time.sleep(0.1)
         content = content[1:] + content[0]
 
 
