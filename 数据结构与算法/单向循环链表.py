@@ -23,8 +23,7 @@ class Node(object):
         self.elem = elem
         self.next = None
 
-
-class SingleLinkList(object):
+class SingleLinkCircleList(object):
     def __init__(self, node=None):
         self.__head = node
         if node:
@@ -54,28 +53,38 @@ class SingleLinkList(object):
 
     def add_front(self, item):
         node = Node(item)
-        node.next = self.__head
-        self.__head = node
+        if self.is_empty():
+            self.__head=node
+            node.next=node
+        else:
+            cur=self.__head
+            while cur.next!=self.__head:
+                cur=cur.next
+            node.next=self.__head
+            self.__head = node
+            cur.next=node
 
     def add_rear(self, item):
         node = Node(item)
-        if self.__head == None:
+        if self.is_empty():
             self.__head = node
+            node.next=node
         else:
             cur = self.__head
             while cur.next != self.__head:
                 cur = cur.next
             cur.next = node
+            node.next=self.__head
 
     def insert(self, pos, item):
         node = Node(item)
-        cur = self.__head
-        count = 0
         if pos <= 0:
             self.add_front(item)
         elif pos > self.length()-1:
             self.add_rear(item)
         else:
+            cur=self.__head
+            count=1
             while count < pos-1:
                 count += 1
                 cur = cur.next
@@ -83,8 +92,10 @@ class SingleLinkList(object):
             cur.next = node
 
     def search(self, item):
+        if self.is_empty():
+            return False
         cur = self.__head
-        while cur != None:
+        while cur.next != self.__head:
             if cur.elem == item:
                 return True
             else:
@@ -92,30 +103,37 @@ class SingleLinkList(object):
         return False
 
     def remove(self, item):
+        if self.is_empty():
+            return False
         cur = self.__head
-        if cur.elem == item:
-            self.__head = cur.next
+        if cur.elem == item and self.length()==1:
+            self.__head = None
             return True
-        while cur.next != None:
+        while cur.next != self.__head:
             if cur.next.elem == item:
                 cur.next = cur.next.next
                 return True
             else:
                 cur = cur.next
+        if cur.elem==item:
+            
         return False
 
 
 if __name__ == '__main__':
-    sll = SingleLinkList()
+    sll =SingleLinkCircleList()
     print(sll.is_empty())
     print(sll.length())
     # sll.add_front(10)
-    # sll.add_rear(20)
-    sll.add_front(50)
     sll.add_rear(20)
-    # sll.insert(1,"我是插入值")
+    # sll.add_front(50)
+    # sll.add_front(40)
+    # sll.add_front(30)
+    sll.add_rear(30)
+    sll.insert(1,"我是插入值")
     print('单向循环链表所有元素是:')
     sll.travel()
     print('单向链表长度是：%d' % (sll.length()))
-    # print(sll.remove(50))
-    # sll.travel()
+    print('查找元素20，结果是：',sll.search(20))
+    print(sll.remove(20))
+    sll.travel()

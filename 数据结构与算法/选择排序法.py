@@ -11,6 +11,7 @@ def Seletionsort(alist):
               t = i
         alist[t] = alist[j]
         alist[j] = min
+        
 
 if __name__=='__main__':
     alist=[0,5,9,1,2,6,3]
