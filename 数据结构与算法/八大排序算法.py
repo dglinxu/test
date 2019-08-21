@@ -1,21 +1,41 @@
-def QuickSort(list1):
-    list_len=len(list1)
-    if list_len<2:
+def quickSort(arr,left,right):
+    if left>=right:
         return 
-    tm=list1[0]
-    list_p=1
-    list_f=list_len-1
-    while list_p<list_f:
-        if list1[list_p]<tm:
-            tm,list1[list_p]=list[]
+    num=arr[left]
+    low=left
+    high=right
+    while low<high:
+        while arr[high]>=num and low<high:
+            high-=1 
+        arr[low]=arr[high]
+        while arr[low]<num and low<high:
+            low+=1 
+        arr[high]=arr[low]
+    arr[high]=num 
+    quickSort(arr,left,low-1)
+    quickSort(arr,low+1,right)
+
+def QuickSort(arr):
+    if len(arr)<2:
+        return arr
+    num=arr[0]
+    arr.remove(num)
+    left,right=[],[]
+    for i in arr:
+        if i>num:
+            right.append(i)
+        else:
+            left.append(i)
+    return QuickSort(left)+[num]+QuickSort(right)
+    
+
 
 
 if __name__=='__main__':
-    alist=[0,5,9,1,2,6,3]
+    alist=[0,5,9,1,2,6,3,3,2,5]
     a=[7,1,3,4,5,6]
     print(alist)
-    BubbleSort(alist)
-
+    print(QuickSort(alist))
     print(alist)
    
             
