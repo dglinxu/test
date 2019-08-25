@@ -12,8 +12,8 @@ def quicksort(arr, left, right):
             low += 1
         arr[high] = arr[low]
     arr[high] = num
-    quickSort(arr, left, low-1)
-    quickSort(arr, low+1, right)
+    quicksort(arr, left, low-1)
+    quicksort(arr, low+1, right)
 
 
 def QuickSort(myList, start, end):
@@ -75,12 +75,23 @@ def pos(myList,start,end):
     myList[i+1],myList[end]=num,myList[i+1]
     return i+1
 
+'''侏儒排序法'''
+def gnomesort(arr): 
+    i=0 
+    while i<len(arr):
+        if i==0 or arr[i-1]<=arr[i]:
+            i+=1 
+        else:
+            arr[i],arr[i-1]=arr[i-1],arr[i]
+            i-=1
+
+
 
 if __name__ == '__main__':
     arr=[0, 5, 9, 1, 2, 6, 3, 3, 2, 5]
     a = [7, 1, 3, 4, 5, 6]
     print(arr)
-    quick_sort(arr,0,len(arr)-1)
+    gnomesort(arr)
     print(arr)
 
 
