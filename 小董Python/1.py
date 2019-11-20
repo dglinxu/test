@@ -1,2 +1,1 @@
-a=["flower","flow","flight"]
-print(min(len(i) for i in a))
+print(int('11111',2))
