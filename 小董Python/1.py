@@ -7,8 +7,9 @@
 #     print('%d数字的次数是：%d'%(i,li.count(i)),end='\n')
 import time
 li = ["\\", "|", "/", "—"]  #第一个两个斜杠是为了转义
-
-for i in range(50):
+s="枝上柳绵吹又少，天涯何处无芳草"
+l=len(s)
+for i in range(10+1):
     # \r 表示将光标的位置回退到本行的开头位置
     # \b表示将光标的位置回退一位
     # print('\r%d'%i,end='') #光标在字符后面
@@ -16,5 +17,6 @@ for i in range(50):
     # print('\r'+'*'*i,end=' ')
     # j = i % 4
     # print('\r'+li[j], end='')
-    print('\r' + '※' * i, end='')  #进度条
-    time.sleep(0.2)
+    
+    print('\r'+'离程序退出还有%d秒！'%(10-i),end=' ')  #进度条
+    time.sleep(1)
