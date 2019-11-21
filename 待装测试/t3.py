@@ -10,13 +10,7 @@
 # @修改时间：2019/4/21 17:36
 # @文件说明：
 """"""""""""""""""""""""""
-num=int(input('请一个输入自然数：'))
-list1=list(range(2,num+1))
-print(list1)
-middle=int(num**0.5)
-print(middle)
-for i,n in enumerate(list1):
-    if i>middle:
-        break
-    list1[i+1:]=filter(lambda x:x%n!=0,list1[i+1:])
-print(list1)
+import openpyxl
+wb=openpyxl.load_workbook(r'i:\python\待装测试\t1.xlsx')
+ws=wb.sheetnames
+print(ws)
