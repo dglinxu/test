@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+print(int('11111',2))
+=======
 # from random import randint
 # a=["flower","flow","flight"]
 # print(min(len(i) for i in a))
@@ -20,3 +23,4 @@ for i in range(10+1):
     
     print('\r'+'绂荤▼搴忛€€鍑鸿繕鏈�%d绉掞紒'%(10-i),end=' ')  #杩涘害鏉�
     time.sleep(1)
+>>>>>>> e4408744db7d96541bc78192259229d59acf8bbb
