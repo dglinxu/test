@@ -1,5 +1,6 @@
 import openpyxl
-wb=openpyxl.load_workbook('t1.xlsx')
-ws=wb.sheetnames
-lam
-print(ws)
+wb=openpyxl.load_workbook(r'D:\Git\待装测试\test.xlsx')
+ws=wb.worksheets[0]
+for i,row in enumerate(ws.rows):
+    
+    print(s)
