@@ -31,13 +31,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-38" />
-    <option name="y" value="-38" />
-    <option name="width" value="1637" />
-    <option name="height" value="940" />
-  </component>
+  <component name="ProjectId" id="1WChtGEAmii1LdnBF3zChUe9V17" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -192,6 +188,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="111" />
     <option name="LAST_COMMIT_MESSAGE" value="111" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="614" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578659832785">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="614" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.920@0.0.1707.920" timestamp="1578659832785" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/待装测试/4.py">
