@@ -31,3 +31,4 @@ for row in ws.values:
 
 
 wb.save('电子表格测试.xlsx')
+isinstance(object, type)

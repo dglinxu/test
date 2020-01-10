@@ -10,4 +10,11 @@
 # @修改时间：2019/4/21 17:36
 # @文件说明：
 """""" """""" """""" """""" ""
-print('你好，这是中文电台！')
+def fn(n): 
+    if n<1: 
+        return 1
+    return n*fn(n-1)
+
+# for i in range(31): 
+#     print(i+1,fn(i+1)).
+print(26,fn(26))
