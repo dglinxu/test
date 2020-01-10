@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6bae3b2-da9b-460b-8f79-070ded00e8a7" name="Default Changelist" comment="" />
+    <list default="true" id="a6bae3b2-da9b-460b-8f79-070ded00e8a7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL练习/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/SQL练习/1.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +39,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.35502958" />
   </component>
   <component name="ServiceViewManager">
@@ -65,7 +68,7 @@
       <workItem from="1575428422038" duration="18000" />
       <workItem from="1578620808647" duration="364000" />
       <workItem from="1578622483147" duration="49000" />
-      <workItem from="1578659698100" duration="1479000" />
+      <workItem from="1578659698100" duration="1832000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1575274689169</created>
@@ -130,7 +133,28 @@
       <option name="project" value="LOCAL" />
       <updated>1578661031767</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="111">
+      <created>1578661185649</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578661185649</updated>
+    </task>
+    <task id="LOCAL-00011" summary="111">
+      <created>1578661239543</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578661239543</updated>
+    </task>
+    <task id="LOCAL-00012" summary="111">
+      <created>1578661273635</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578661273635</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,18 +169,18 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="346" y="37" key="#Notifications/0.0.1707.920@0.0.1707.920" timestamp="1578661178547" />
-    <state x="380" y="0" key="CommitChangelistDialog2" timestamp="1578661238555">
+    <state x="380" y="0" key="CommitChangelistDialog2" timestamp="1578661272811">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="380" y="0" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1578661238555" />
-    <state x="239" y="19" key="SettingsEditor" timestamp="1578660185182">
+    <state x="380" y="0" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1578661272811" />
+    <state x="239" y="19" key="SettingsEditor" timestamp="1578661524496">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="239" y="19" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1578660185182" />
-    <state x="346" y="129" key="Vcs.Push.Dialog.v2" timestamp="1578661202425">
+    <state x="239" y="19" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1578661524496" />
+    <state x="346" y="129" key="Vcs.Push.Dialog.v2" timestamp="1578661299982">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="346" y="129" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1578661202425" />
+    <state x="346" y="129" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1578661299982" />
     <state x="614" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578661262794">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
