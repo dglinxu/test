@@ -1,8 +1,22 @@
 import pandas as pd
 import datetime
 import random
+import matplotlib.pyplot as plt
+from matplotlib.font_manager import FontProperties
+font_set = FontProperties(fname=r"c:\windows\fonts\simsun.ttc", size=16)
 
-称得上是
+pict=pd.read_excel('picture.xlsx')
+pict.sort_values(by='价格',inplace=True)
+# pict.plot.bar(x='商品',y='价格',title='6month price')
+plt.bar(pict.商品,pict.价格,color='green')
+plt.xticks(pict.商品,rotation='45')
+plt.xlabel('spmc',fontsize=15,color='red')
+plt.ylabel('价  格',fontproperties=font_set,color='blue')
+plt.title('title',fontsize=20,color='red')
+plt.tight_layout()
+plt.show()
+
+
 '''筛选'''
 # price=pd.read_excel('output2.xlsx',index_col='Id')
 # price=price.loc[price['价格'].apply(lambda x:110<x<120)].loc[price.喜好.apply(lambda x:x=='Y')]

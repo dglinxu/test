@@ -10,11 +10,14 @@
 # @修改时间：2019/4/21 17:36
 # @文件说明：
 """""" """""" """""" """""" ""
-def fn(n): 
-    if n<1: 
-        return 1
-    return n*fn(n-1)
+def fn(n):
+    for i in range(n):
+        yield i
 
+
+nums=list(range(10))
 # for i in range(31): 
 #     print(i+1,fn(i+1)).
-print(26,fn(26))
+for i in range(10):
+
+    print(fn(10))
