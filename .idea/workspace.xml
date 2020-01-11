@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6bae3b2-da9b-460b-8f79-070ded00e8a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/待装测试/Pandas VS Excel/生成电子表格.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/待装测试/Pandas VS Excel/output.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/待装测试/Pandas VS Excel/output1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/待装测试/Pandas VS Excel/output2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/待装测试/Pandas VS Excel/test.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL练习/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/SQL练习/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/待装测试/Pandas VS Excel/生成电子表格.py" beforeDir="false" afterPath="$PROJECT_DIR$/待装测试/Pandas VS Excel/生成电子表格.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +47,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1WChtGEAmii1LdnBF3zChUe9V17" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -114,7 +120,7 @@
       <workItem from="1578620808647" duration="364000" />
       <workItem from="1578622483147" duration="49000" />
       <workItem from="1578659698100" duration="2195000" />
-      <workItem from="1578710070979" duration="672000" />
+      <workItem from="1578710070979" duration="10405000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1575274689169</created>
@@ -214,13 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578661585758</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="111">
+      <created>1578710856128</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578710856128</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="111" />
     <option name="LAST_COMMIT_MESSAGE" value="111" />
   </component>
@@ -229,34 +243,34 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="346" y="37" key="#Notifications/0.0.1707.920@0.0.1707.920" timestamp="1578661178547" />
-    <state x="380" y="0" key="CommitChangelistDialog2" timestamp="1578661584901">
+    <state x="380" y="0" key="CommitChangelistDialog2" timestamp="1578710854978">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="380" y="0" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1578661584901" />
-    <state width="1653" height="229" key="GridCell.Tab.0.bottom" timestamp="1578710809824">
+    <state x="380" y="0" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1578710854978" />
+    <state width="1653" height="151" key="GridCell.Tab.0.bottom" timestamp="1578731490849">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1653" height="229" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1578710809824" />
-    <state width="1653" height="229" key="GridCell.Tab.0.center" timestamp="1578710809824">
+    <state width="1653" height="151" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1578731490849" />
+    <state width="1653" height="151" key="GridCell.Tab.0.center" timestamp="1578731490849">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1653" height="229" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1578710809824" />
-    <state width="1653" height="229" key="GridCell.Tab.0.left" timestamp="1578710809824">
+    <state width="1653" height="151" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1578731490849" />
+    <state width="1653" height="151" key="GridCell.Tab.0.left" timestamp="1578731490848">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1653" height="229" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1578710809824" />
-    <state width="1653" height="229" key="GridCell.Tab.0.right" timestamp="1578710809824">
+    <state width="1653" height="151" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1578731490848" />
+    <state width="1653" height="151" key="GridCell.Tab.0.right" timestamp="1578731490849">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1653" height="229" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1578710809824" />
-    <state x="239" y="19" key="SettingsEditor" timestamp="1578710477215">
+    <state width="1653" height="151" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1578731490849" />
+    <state x="239" y="19" key="SettingsEditor" timestamp="1578714211502">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="239" y="19" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1578710477215" />
-    <state x="346" y="129" key="Vcs.Push.Dialog.v2" timestamp="1578661591389">
+    <state x="239" y="19" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1578714211502" />
+    <state x="346" y="129" key="Vcs.Push.Dialog.v2" timestamp="1578710860048">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="346" y="129" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1578661591389" />
+    <state x="346" y="129" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1578710860048" />
     <state x="470" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1578710071497">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -267,6 +281,6 @@
     <state x="614" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.920@0.0.1707.920" timestamp="1578661574206" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python$.coverage" NAME="生成电子表格 Coverage Results" MODIFIED="1578710809815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/待装测试/Pandas VS Excel" />
+    <SUITE FILE_PATH="coverage/python$.coverage" NAME="生成电子表格 Coverage Results" MODIFIED="1578731490842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/待装测试/Pandas VS Excel" />
   </component>
 </project>
