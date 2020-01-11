@@ -2,7 +2,7 @@ import pandas as pd
 import datetime
 import random
 
-
+称得上是
 '''筛选'''
 # price=pd.read_excel('output2.xlsx',index_col='Id')
 # price=price.loc[price['价格'].apply(lambda x:110<x<120)].loc[price.喜好.apply(lambda x:x=='Y')]

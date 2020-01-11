@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6bae3b2-da9b-460b-8f79-070ded00e8a7" name="Default Changelist" comment="">
+    <list default="true" id="a6bae3b2-da9b-460b-8f79-070ded00e8a7" name="Default Changelist" comment="111">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/待装测试/Pandas VS Excel/output2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/待装测试/Pandas VS Excel/output2.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/待装测试/Pandas VS Excel/生成电子表格.py" beforeDir="false" afterPath="$PROJECT_DIR$/待装测试/Pandas VS Excel/生成电子表格.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +116,7 @@
       <workItem from="1578620808647" duration="364000" />
       <workItem from="1578622483147" duration="49000" />
       <workItem from="1578659698100" duration="2195000" />
-      <workItem from="1578710070979" duration="16249000" />
+      <workItem from="1578710070979" duration="17504000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1575274689169</created>
@@ -231,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578731554146</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="111">
+      <created>1578737517710</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1578737517710</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,10 +253,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="346" y="37" key="#Notifications/0.0.1707.920@0.0.1707.920" timestamp="1578661178547" />
-    <state x="380" y="0" key="CommitChangelistDialog2" timestamp="1578731552845">
+    <state x="380" y="0" key="CommitChangelistDialog2" timestamp="1578737588944">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="380" y="0" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1578731552845" />
+    <state x="380" y="0" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1578737588944" />
     <state width="1653" height="205" key="GridCell.Tab.0.bottom" timestamp="1578737265367">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -271,18 +277,18 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="239" y="19" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1578732087641" />
-    <state x="346" y="129" key="Vcs.Push.Dialog.v2" timestamp="1578731557498">
+    <state x="346" y="129" key="Vcs.Push.Dialog.v2" timestamp="1578737552411">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="346" y="129" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1578731557498" />
+    <state x="346" y="129" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1578737552411" />
     <state x="470" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1578710071497">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="470" y="244" key="com.intellij.ide.util.TipDialog/0.0.1707.920@0.0.1707.920" timestamp="1578710071495" />
-    <state x="614" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578661574206">
+    <state x="614" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578737580361">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="614" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.920@0.0.1707.920" timestamp="1578661574206" />
+    <state x="614" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.920@0.0.1707.920" timestamp="1578737580361" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python$.coverage" NAME="生成电子表格 Coverage Results" MODIFIED="1578737265358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/待装测试/Pandas VS Excel" />
