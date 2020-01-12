@@ -7,8 +7,8 @@ font_set = FontProperties(fname=r"c:\windows\fonts\simsun.ttc", size=16)
 
 pict=pd.read_excel('picture.xlsx')
 pict.sort_values(by='价格',inplace=True)
-# pict.plot.bar(x='商品',y='价格',title='6month price')
-plt.bar(pict.商品,pict.价格,color='green')
+pict.plot.bar(x='商品',y='价格',title='6month price')
+# plt.bar(pict.商品,pict.价格,color='green')
 plt.xticks(pict.商品,rotation='45')
 plt.xlabel('spmc',fontsize=15,color='red')
 plt.ylabel('价  格',fontproperties=font_set,color='blue')
@@ -63,6 +63,7 @@ plt.show()
 # df=df.set_index('Id')
 # df.to_excel('pandas创建的表格.xlsx')
 ''' 读取表格  '''
+# pd.options.display.max_columns=999
 # dz=pd.read_excel("test.xlsx",index_col='Id')
 # dz.to_excel('output.xlsx')
 # print(dz.shape)
