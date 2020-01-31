@@ -1,10 +1,43 @@
 # -*- coding: utf-8 -*-
-import re
-s = '山东省潍坊市青州第1中学高三1班'
-pat = '1'
-r = re.finditer(pat,s)
-for i in r:
-    print(i.span()[0])
+alist=[1,2,3,4,5]
+print(sum(i+1 for i in alist))
+
+# from collections import Counter
+# s=[1,2,3,4,2,3,2]
+# n=Counter(s)
+# print(n[2])
+
+# def fib(n):
+#     f0,f1=1,1
+#     for i in range(n): 
+#         yield f0
+#         f0,f1=f1,f0+f1 
+# print(list(fib(10))) 
+
+
+
+
+
+# fn='test.txt'
+# with open(fn,'r',encoding='utf-8') as f:
+#     t=f.readlines()
+# for ch in t: 
+#     print(ch,flush=True) 
+
+
+
+
+# import os
+# file_ext = os.path.splitext('./data/py/test.py')
+# front,ext = file_ext
+# print(file_ext)
+
+# import re
+# s = '山东省潍坊市青州第1中学高三1班'
+# pat = '1'
+# r = re.finditer(pat,s)
+# for i in r:
+#     print(i.span()[0])
 
 
 
