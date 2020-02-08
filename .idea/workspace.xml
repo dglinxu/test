@@ -52,11 +52,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="settings.editor.splitter.proportion" value="0.35502958" />
   </component>
   <component name="RecentsManager">
@@ -256,7 +257,12 @@
       <workItem from="1578710070979" duration="24686000" />
       <workItem from="1578790247588" duration="18057000" />
       <workItem from="1578924853528" duration="386000" />
-      <workItem from="1578925288822" duration="262000" />
+      <workItem from="1578925288822" duration="1698000" />
+      <workItem from="1581123458983" duration="103000" />
+      <workItem from="1581124008787" duration="233000" />
+      <workItem from="1581124273952" duration="299000" />
+      <workItem from="1581124603744" duration="1649000" />
+      <workItem from="1581126398343" duration="58000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1575274689169</created>
@@ -405,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578892293130</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="111">
+      <created>1578925632255</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1578925632255</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,10 +434,14 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="346" y="37" key="#Notifications/0.0.1707.920@0.0.1707.920" timestamp="1578925340102" />
-    <state x="380" y="0" key="CommitChangelistDialog2" timestamp="1578892290804">
+    <state x="321" y="75" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581123521370">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="321" y="75" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1581123521370" />
+    <state x="380" y="0" key="CommitChangelistDialog2" timestamp="1578925631213">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="380" y="0" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1578892290804" />
+    <state x="380" y="0" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1578925631213" />
     <state width="1653" height="219" key="GridCell.Tab.0.bottom" timestamp="1578892339042">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -441,17 +458,18 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state width="1653" height="219" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1578892339042" />
-    <state x="239" y="19" key="SettingsEditor" timestamp="1578925585484">
+    <state x="226" y="202" key="SettingsEditor" timestamp="1578926976618">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="239" y="19" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1578925585484" />
-    <state x="346" y="129" key="Vcs.Push.Dialog.v2" timestamp="1578892323220">
+    <state x="226" y="202" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1578926976618" />
+    <state x="346" y="129" key="Vcs.Push.Dialog.v2" timestamp="1578925635486">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="346" y="129" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1578892323220" />
-    <state x="470" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1578925292434">
-      <screen x="0" y="0" width="1707" height="920" />
+    <state x="346" y="129" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1578925635486" />
+    <state x="352" y="180" key="com.intellij.ide.util.TipDialog" timestamp="1581126453657">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="352" y="180" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1581126453657" />
     <state x="470" y="244" key="com.intellij.ide.util.TipDialog/0.0.1707.920@0.0.1707.920" timestamp="1578925292434" />
     <state x="614" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578925612236">
       <screen x="0" y="0" width="1707" height="920" />
