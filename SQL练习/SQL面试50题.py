@@ -194,7 +194,7 @@ c=conn.cursor()
 #     row_number() over(partition by c_id order by s_score) m\
 #     from score as s inner join course as c on s.c_id=c.c_id)\
 #     where m in (1,2,3) group by c_id"
-sql="select * from Course"
+sql="select c_id,s_score from score"
 
 c.execute(sql)
 conn.commit()
