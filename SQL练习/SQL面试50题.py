@@ -186,15 +186,15 @@ c=conn.cursor()
 #     from score group by s_id"
 
 # 25、查询各科成绩前三名的记录（不考虑成绩并列情况）（重点 与22题类似）
-sql="select c_id,\
-    max(case when m=1 then s_score else null end) '第一',\
-    max(case when m=2 then s_score else null end) '第二',\
-    max(case when m=3 then s_score else null end) '第三'\
-    from(select c_id,s_score,\
-    row_number() over(partition by c_id order by s_score) m\
-    from score as s inner join course as c on s.c_id=c.c_id)\
-    where m in (1,2,3) group by c_id"
-
+# sql="select c_id,\
+#     max(case when m=1 then s_score else null end) '第一',\
+#     max(case when m=2 then s_score else null end) '第二',\
+#     max(case when m=3 then s_score else null end) '第三'\
+#     from(select c_id,s_score,\
+#     row_number() over(partition by c_id order by s_score) m\
+#     from score as s inner join course as c on s.c_id=c.c_id)\
+#     where m in (1,2,3) group by c_id"
+sql="select * from Course"
 
 c.execute(sql)
 conn.commit()
