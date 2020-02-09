@@ -377,6 +377,7 @@ c=conn.cursor()
 # sql="select s_id,s_name,s_birth,datediff(month,s_birth,'2020-02-08') \
 #     from student"
 
+sql="now()"
 c.execute(sql)
 conn.commit()
 datas=c.fetchall()
