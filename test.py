@@ -1,7 +1,12 @@
 # -*- coding: utf-8 -*-
-alist=[1,2,3,4,5]
-print(sum(i+1 for i in alist))
-
+import pandas as pd
+import numpy as np
+import sqlite3
+import pandas.io.sql as sql
+conn=sqlite3.connect('50题测试数据库.db')
+d_sql=sql.read_sql('select * from student',conn)
+print(d_sql)
+print(d_sql.columns)
 # from collections import Counter
 # s=[1,2,3,4,2,3,2]
 # n=Counter(s)
