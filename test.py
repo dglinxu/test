@@ -3,10 +3,23 @@ import pandas as pd
 import numpy as np
 import sqlite3
 import pandas.io.sql as sql
-conn=sqlite3.connect('50题测试数据库.db')
-d_sql=sql.read_sql('select * from student',conn)
-print(d_sql)
-print(d_sql.columns)
+import matplotlib.pyplot as plt
+# data=np.linspace(-np.pi,np.pi,256)
+# s=np.sin(data)
+# c=np.cos(data)
+# plt.title("SIN and COS")
+# plt.xlabel('X')
+# plt.ylabel('Y')
+# plt.plot(data,s)
+# plt.plot(data,c)
+# plt.show()
+# plt.rcParams['font.sans-serif'] = ['SIMHEI']
+df=pd.DataFrame(np.random.randn(10,4).cumsum(0),columns=list('ABCD'),index=np.arange(0,100,10))
+df.plot(title='123-大道')
+plt.show()
+
+
+
 # from collections import Counter
 # s=[1,2,3,4,2,3,2]
 # n=Counter(s)

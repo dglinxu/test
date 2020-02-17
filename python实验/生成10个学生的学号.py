@@ -11,6 +11,6 @@ def g_student_no(cs):
 if __name__=="__main__":
     cs={"A001":32,"A002":47,"B001":39,"B002":42}
     data=set()
-    while len(data)<11:
+    while len(data)<10:
         data.add(g_student_no(cs))
     print(data)
