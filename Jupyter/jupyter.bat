@@ -1,0 +1,2 @@
+start cmd
+jupyter notebook
