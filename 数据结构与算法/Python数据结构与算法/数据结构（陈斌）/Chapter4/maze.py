@@ -121,7 +121,7 @@ def searchFrom(maze, startRow, startColumn):
     return found
 
 
-myMaze = Maze('maze2.txt')
+myMaze = Maze(r'I:\python\数据结构与算法\Python数据结构与算法\数据结构（陈斌）\Chapter4\maze2.txt')
 myMaze.drawMaze()
 myMaze.updatePosition(myMaze.startRow,myMaze.startCol)
 
