@@ -2,84 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bff47f78-7149-46e9-9731-720573522b3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Jupyter/.ipynb_checkpoints/数据分析学习笔记-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jupyter/数据分析学习笔记.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jupyter/测试文本.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jupyter/陈斌数据结构与算法.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python实验/函数集的复用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python实验/完整的异常处理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python实验/类的应用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/找零钱.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter1/fraction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter1/logicgates.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter3/baseconverter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter3/hotpotato.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter3/infixtopostfix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter3/orderedlist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter3/palindromechecker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter3/parcheckers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter3/printersimulation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter3/stacktest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter3/unorderedlist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter4/makingchange.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter4/maze.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter4/maze2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter4/recursiveconversion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter4/recursivelistsummation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter4/recursivespiral.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter4/recursivetree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter4/recursivetriangle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter4/towerofhanoi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter5/binarysearch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter5/binarysearchrecursive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter5/bubblesort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter5/hashing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter5/insertionsort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter5/mergesort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter5/orderedsequentialsearch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter5/quicksort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter5/selectionsort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter5/sequentialsearch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter5/shellsort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter6/balancedbst.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter6/binarytreelist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter6/binarytreenoderef.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter6/binheap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter6/binsearchtree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter6/binsearchtree2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter6/heapexample1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter6/parsetree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter6/treeexample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter7/depthfirstsearch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter7/fourletterwords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter7/graphimpl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter7/rawwords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter7/wordladder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/Chapter7/wordproc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/pythonds/basic/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/pythonds/basic/deque.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/pythonds/basic/queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/pythonds/basic/stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/pythonds/graphs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/pythonds/graphs/adjGraph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/pythonds/graphs/priorityQueue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/pythonds/trees/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/pythonds/trees/balance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/pythonds/trees/binaryTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/pythonds/trees/binheap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/pythonds/trees/bst.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/汉诺塔.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/无序队列链表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/有序表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/海龟作图(树）.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/海龟作图三角形.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jupyter/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Jupyter/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jupyter/.ipynb_checkpoints/Untitled3-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Jupyter/.ipynb_checkpoints/Untitled3-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jupyter/.ipynb_checkpoints/Untitled4-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Jupyter/.ipynb_checkpoints/陈斌数据结构与算法-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jupyter/.ipynb_checkpoints/Markdown简单语法-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Jupyter/.ipynb_checkpoints/Markdown简单语法-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jupyter/Markdown简单语法.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Jupyter/Markdown简单语法.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jupyter/Untitled3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Jupyter/Untitled3.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jupyter/Untitled4.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jupyter/untitled.txt" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构与算法/Python数据结构与算法/数据结构（陈斌）/pythonds/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +41,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/leetcode/LeetCode-Python-cn/0037.解数独/0037-解数独.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -147,8 +77,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-53" />
-    <option name="width" value="1621" />
-    <option name="height" value="921" />
+    <option name="width" value="1623" />
+    <option name="height" value="922" />
   </component>
   <component name="ProjectId" id="1WChtGEAmii1LdnBF3zChUe9V17" />
   <component name="ProjectView">
@@ -156,7 +86,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,30 +98,11 @@
               <item name="Git" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Git" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode-Python-cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Git" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode-Python-cn" type="462c0819:PsiDirectoryNode" />
-              <item name="0001.两数之和" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Git" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode-Python-cn" type="462c0819:PsiDirectoryNode" />
-              <item name="0037.解数独" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -401,8 +311,8 @@
     </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.Git" />
-      <item itemvalue="Python.分列" />
       <item itemvalue="Python.读取CSV TXT TSV文件" />
+      <item itemvalue="Python.分列" />
     </list>
     <recent_temporary>
       <list>
@@ -440,7 +350,8 @@
       <workItem from="1578659698100" duration="2195000" />
       <workItem from="1578710070979" duration="24686000" />
       <workItem from="1578790247588" duration="18003000" />
-      <workItem from="1582506100726" duration="74000" />
+      <workItem from="1582506100726" duration="574000" />
+      <workItem from="1582515073993" duration="704000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1575274689169</created>
@@ -589,16 +500,23 @@
       <option name="project" value="LOCAL" />
       <updated>1582075080038</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="111">
+      <created>1582506226664</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1582506226664</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1708000" />
+    <option name="totallyTimeSpent" value="2912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1464" height="791" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2539342" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25822604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -681,12 +599,6 @@
     <SUITE FILE_PATH="coverage/python$2.coverage" NAME="樱花2 Coverage Results" MODIFIED="1578747349528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/LeetCode-Python-cn/0001.两数之和/0001-两数之和.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/jupyter_test.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -694,8 +606,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/LeetCode-Python-cn/0037.解数独/0037-解数独.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/LeetCode-Python-cn/0001.两数之和/0001-两数之和.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/LeetCode-Python-cn/0037.解数独/0037-解数独.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
