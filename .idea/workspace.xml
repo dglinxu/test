@@ -4,8 +4,15 @@
     <list default="true" id="bff47f78-7149-46e9-9731-720573522b3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Jupyter/陈斌数据结构与算法.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Jupyter/陈斌数据结构与算法.ipynb" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Jupyter/.ipynb_checkpoints/Markdown简单语法-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Jupyter/.ipynb_checkpoints/Markdown简单语法-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jupyter/Markdown简单语法.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Jupyter/Markdown简单语法.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jupyter/Untitled3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Jupyter/Untitled3.ipynb" afterDir="false" />
+>>>>>>> b8f0361538909e9d5ebebb17467dfc372e813feb
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +32,32 @@
     <expand />
     <select />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/LeetCode-Python-cn/0001.两数之和/0001-两数之和.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/LeetCode-Python-cn/0037.解数独/0037-解数独.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+>>>>>>> b8f0361538909e9d5ebebb17467dfc372e813feb
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -43,10 +76,42 @@
       </set>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="JupyterTrust" id="283772ea-5af4-438d-89a7-085139cca1e1">
     <option name="files">
       <option value="Jupyter\陈斌数据结构与算法.ipynb" />
     </option>
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-53" />
+    <option name="width" value="1623" />
+    <option name="height" value="922" />
+  </component>
+  <component name="ProjectId" id="1WChtGEAmii1LdnBF3zChUe9V17" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Git" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Git" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+>>>>>>> b8f0361538909e9d5ebebb17467dfc372e813feb
   </component>
   <component name="ProjectId" id="1WChtGEAmii1LdnBF3zChUe9V17" />
   <component name="ProjectViewState">
@@ -243,8 +308,14 @@
       <method v="2" />
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Python.分列" />
       <item itemvalue="Python.读取CSV TXT TSV文件" />
+=======
+      <item itemvalue="Jupyter Notebook.Git" />
+      <item itemvalue="Python.读取CSV TXT TSV文件" />
+      <item itemvalue="Python.分列" />
+>>>>>>> b8f0361538909e9d5ebebb17467dfc372e813feb
     </list>
     <recent_temporary>
       <list>
@@ -282,7 +353,12 @@
       <workItem from="1578659698100" duration="2195000" />
       <workItem from="1578710070979" duration="24686000" />
       <workItem from="1578790247588" duration="18003000" />
+<<<<<<< HEAD
       <workItem from="1582468786684" duration="313000" />
+=======
+      <workItem from="1582506100726" duration="574000" />
+      <workItem from="1582515073993" duration="704000" />
+>>>>>>> b8f0361538909e9d5ebebb17467dfc372e813feb
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1575274689169</created>
@@ -431,9 +507,50 @@
       <option name="project" value="LOCAL" />
       <updated>1582075080038</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="111">
+      <created>1582506226664</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1582506226664</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2912000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1464" height="791" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25822604" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="DB Browser" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="DB Execution Console" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+>>>>>>> b8f0361538909e9d5ebebb17467dfc372e813feb
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -495,4 +612,29 @@
     <SUITE FILE_PATH="coverage/python$t3.coverage" NAME="t3 Coverage Results" MODIFIED="1578744727698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/待装测试" />
     <SUITE FILE_PATH="coverage/python$2.coverage" NAME="樱花2 Coverage Results" MODIFIED="1578747349528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jupyter_test.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/LeetCode-Python-cn/0001.两数之和/0001-两数之和.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/LeetCode-Python-cn/0037.解数独/0037-解数独.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+>>>>>>> b8f0361538909e9d5ebebb17467dfc372e813feb
 </project>
