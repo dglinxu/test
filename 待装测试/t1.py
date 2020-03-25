@@ -23,9 +23,10 @@ ws2.title='第二页'
 ws1['a1']='第一页的第一个单元格'
 ws2['a1']=datetime.date.today()
 ws3=wb.create_sheet('第三页',0)
-fefe 
 ws3=wb.copy_worksheet(ws1)
 ws3['a1'].font=ft
 wb.save('test.xls')
 FileFinder(path, *loader_details)
 print('fiefwifief ')
+wb
+
