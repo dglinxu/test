@@ -11,6 +11,7 @@ code template:输入名称自动补全
 可以取消方法大小写敏感
 **Ctrl+Space:显示候选变量和方法
 Ctrl+q:显示函数的帮助提示
+Ctrl+P:显示函数括号内的信息
 
 ### 快捷键
 Ctrl+y:删除一行
@@ -22,4 +23,4 @@ Ctrl+右击：进入选定函数的源码
 Ctrl+shift+'+’：折叠
 Ctrl+shift+'-':展开
 
-***TODO 
+**TODO** 
