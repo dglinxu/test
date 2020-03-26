@@ -28,5 +28,5 @@ ws3['a1'].font=ft
 wb.save('test.xls')
 FileFinder(path, *loader_details)
 print('fiefwifief ')
-wb
+
 
