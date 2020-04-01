@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <script type="text/javascript">
+        var _ux21st = (new Date()).getTime();
+        (function() {
+            var ma = document.createElement('script'); ma.type = 'text/javascript'; ma.async = true;
+            ma.src = ('https:' == document.location.protocol ? 'https://ux.21cn.com' : 'http://ux.21cn.com') + '/api/htmlReportRest/getJs.js?pid=97B223AD305148E5A4690972B68CCA40';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ma, s);
+        })();
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <meta content="all" name="robots" />
+    <title>189邮箱-爱简单</title>
+    <meta name="keywords" content="189邮箱,免费邮箱,手机邮箱,电子账单,电子发票,工作邮箱,商务邮箱,电子邮箱,电子邮件,电信邮箱,Mail,email,日历,短信,天翼" />
+    <meta name="description" content="189免费邮箱是面向所有互联网用户的新型手机邮箱，用户可查看电子账单和电子发票。覆盖Web、Wap、 Pad、iOS、Android等多个终端，满足用户随时随地处理邮件需要。189邮箱提倡“爱简单”理念， 产品功能、体验结合“简单”理念，让用户享受高效工作、轻松生活。" />
+    <link rel="shortcut icon" href="../source/img/fav.ico" />
+    <link type="text/css" href="../source/stylesheets/common.css?2012001161238"  rel="stylesheet">
+    <script>
+        !function() {
+            function getCookie(cookieName) {
+                var theCookie = ' ' + document.cookie
+                var ind = theCookie.indexOf(' ' + cookieName + '=')
+                if (ind === -1) {
+                    ind = theCookie.indexOf(';' + cookieName + '=')
+                }
+                if (ind === -1 || cookieName === '') {
+                    return ''
+                }
+                var ind1 = theCookie.indexOf(';', ind + 1)
+                if (ind1 === -1) {
+                    ind1 = theCookie.length
+                }
+                return theCookie.substring(ind + cookieName.length + 2, ind1)
+            }
+            var globalValues = getCookie('globalValues')
+            var colorId = 0
+            if (globalValues) {
+                globalValues = globalValues.replace(/\+/g, '%20');
+                window.globalValues = JSON.parse(decodeURIComponent(globalValues))
+                colorId = window.globalValues.colorId > 16 ? 0 : window.globalValues.colorId
+            }
+            var link = document.createElement('link');
+            link.setAttribute('type', 'text/css');
+            link.setAttribute('href', '../source/stylesheets/themes/s' + colorId + '/skin.css?201809181238');
+            link.setAttribute('id', 'skinLink');
+            link.setAttribute('data-colorId', colorId);
+            link.setAttribute('rel', 'stylesheet');
+            document.documentElement.getElementsByTagName('head')[0].appendChild(link);
+        }();
+    </script>
+    <script>
+        var _ux21et = (new Date()).getTime();
+        var _uxt = _uxt || [];
+    </script>
+</head>
+<body>
+
+<div class="skin-fullScreen" id="skinFullScreen">
+    <img src="" id="skinImg" />
+</div>
+<div id="gohelp" style="display:none" >
+
+</div>
+<div id="mail">
+    <div class="notify" id="J_Notify"></div>
+    <div class="notify" id="J_Operate_Notify"></div>
+    <div class="head-notice" id="browerIe" >您的浏览器版本过低，可能会导致部分图片和信息的缺失。建议您<a href="http://www.microsoft.com/china/windows/IE/upgrade/index.aspx" target="_blank">升级浏览器</a>或<a href="http://mail.189.cn/webmail/?changeChannel=toOldwebmail" >使用旧版邮箱</a>。</div>
+    <div class="header" id="j-header">
+        <h1>
+            <a id="logo" class="logo icon-logo" href="#index" title="189邮箱"></a>
+        </h1>
+        <div class="topbar">
+            <ul class="nav clearfix" role="navigation">
+                <li class="fp popover-person-info">
+                    <span class="j-vip-con">
+                        <a href="javascript:;" target="_blank" >
+                            <i class="vip vip--small icon-vip"></i>
+                        </a>
+                    <a href="javascript:;" target="_blank" class="vip-tips j-vip-tips">点亮VIP图标</a>
+                    </span>
+
+                    <a id="j-person-info" class="topbar-a" href="javascript:;" data-toggle="popover" data-placement="bottom" data-content="" data-original-title="">
+                        <!--<i class="vip vip&#45;&#45;small icon-vip"></i>-->
+                        <span class="user-name j-user-name" title="账号"></span>
+                        <b class="triangle triangle-down" title="账号"></b>
+                    </a>
+                </li>
+                <li>
+                    <a  href="javascript:;" class="vip-update topbar-a" id="j-vip-update" target="_blank" title="VIP邮箱">升级VIP服务</a>
+                </li>
+                <li class="j-pop-dlqr"><a class="topbar-a" href="http://mail.189.cn/webmail/jsp/189misc/client/android.html" target="_blank" title="手机版">手机版</a>
+                    <a target="_blank" href="http://mail.189.cn/webmail/jsp/189misc/client/android.html" class="j-header-pop-qrcode qrcode-tips" title="手机版">
+                        <img src="/w2/source/img/dl-qrcode.png" alt="">
+                        <p>下载189邮箱客户端</p>
+                        <p class="p-1">iPhone & Android</p>
+                    </a>
+                </li>
+                <li class="nav-setting" id="j-setting-li">
+                    <a id="j-header-setting" class="topbar-a" href="javascript:;"  data-toggle="popover" data-placement="bottom" >
+                        <span title="设置">设置</span>
+                        <b class="triangle triangle-down" title="设置"></b>
+                    </a>
+                </li>
+                <li class="nav-help" id="j-help-li">
+                    <a id="help" class="topbar-a"  href="javascript:;"  data-toggle="popover" data-placement="bottom" data-content="" data-original-title="">
+                        <span>帮助</span>
+                        <b class="triangle triangle-down"></b>
+                    </a>
+                </li>
+                <li>
+                    <a class="topbar-a"  id="logout" href="javascript:;" title="退出">退出</a>
+                </li>
+            </ul>
+        </div>
+        <div  class="yixin-com" id="j-yiXin" title="易信" style="display:none;">
+            <div id="abc" title="易信"></div>
+        </div>
+
+        <div id="j-skinModal" class="modal hide fade">
+            <div class="modal-dialog skin-modal-view">
+                <div class="modal-header">
+                    <button type="button" class="close modal-close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3 class="modal-title">选择主题背景<span>点击图片即可直接切换皮肤，切换后，设置自动保存。</span></h3>
+                </div>
+                <div class="modal-body">
+                    <ul class="skin-list clearfix">
+                        <li class="j-s0" data-type="0" >
+                            <div class="skin-big"></div>
+                            <div class="skin-list-h icon-skin--1"  >
+                                <div class="skin-list-h-text">
+                                    <p>简约之蓝</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="j-s12" data-type="12" >
+                            <div class="skin-big"></div>
+                            <div class="skin-list-h icon-skin--13" >
+                                <div class="skin-list-h-text">
+                                    <p>麦色暖黄</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="j-s13" data-type="13" >
+                            <div class="skin-big"></div>
+                            <div class="skin-list-h icon-skin--14" >
+                                <div class="skin-list-h-text">
+                                    <p>落樱缤纷</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="j-s14" data-type="14" >
+                            <div class="skin-big"></div>
+                            <div class="skin-list-h icon-skin--15" >
+                                <div class="skin-list-h-text">
+                                    <p>高雅淡灰</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="j-s15" data-type="15" >
+                            <div class="skin-big"></div>
+                            <div class="skin-list-h icon-skin--16" >
+                                <div class="skin-list-h-text">
+                                    <p>梦幻水蓝</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="j-s16" data-type="16" >
+                            <div class="skin-big"></div>
+                            <div class="skin-list-h icon-skin--17" >
+                                <div class="skin-list-h-text">
+                                    <p>素雅稚青</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="j-s1" data-type="1" >
+                            <div class="skin-big"></div>
+                            <div class="skin-list-h icon-skin--2"  >
+                                <div class="skin-list-h-text">
+                                    <p>海滨夜色</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="j-s2" data-type="2" >
+                            <div class="skin-big"></div>
+                            <div class="skin-list-h icon-skin--3" >
+                                <div class="skin-list-h-text">
+                                    <p>球迷天地</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="j-s3" data-type="3" >
+                            <div class="skin-big"></div>
+                            <div class="skin-list-h icon-skin--4" >
+                                <div class="skin-list-h-text">
+                                    <p>都市丽影</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="j-s4" data-type="4" >
+                            <div class="skin-big"></div>
+                            <div class="skin-list-h icon-skin--5" >
+                                <div class="skin-list-h-text">
+                                    <p>金色天地</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="j-s5" data-type="5" >
+                            <div class="skin-big"></div>
+                            <div class="skin-list-h icon-skin--6" >
+                                <div class="skin-list-h-text">
+                                    <p>海底世界</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="j-s6" data-type="6" >
+                            <div class="skin-big"></div>
+                            <div class="skin-list-h icon-skin--7" >
+                                <div class="skin-list-h-text">
+                                    <p>清荷意境</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="j-s7" data-type="7" >
+                            <div class="skin-big"></div>
+                            <div class="skin-list-h icon-skin--8" >
+                                <div class="skin-list-h-text">
+                                    <p>童话世界</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="j-s8" data-type="8" >
+                            <div class="skin-big"></div>
+                            <div class="skin-list-h icon-skin--9" >
+                                <div class="skin-list-h-text">
+                                    <p>自由之蓝</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="j-s9" data-type="9" >
+                            <div class="skin-big"></div>
+                            <div class="skin-list-h icon-skin--10" >
+                                <div class="skin-list-h-text">
+                                    <p>金秋一刻</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="j-s10" data-type="10" >
+                            <div class="skin-big"></div>
+                            <div class="skin-list-h icon-skin--11" >
+                                <div class="skin-list-h-text">
+                                    <p>烂漫粉界</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="j-s11" data-type="11" >
+                            <div class="skin-big"></div>
+                            <div class="skin-list-h icon-skin--12" >
+                                <div class="skin-list-h-text">
+                                    <p>火热主题</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar header-navbar" id="j-mainNav">
+        <div class="nav-tab">
+            <div class="nav-tab-inner">
+                <span class="hover-border" id="J_nav_tab_hover"></span>
+                <ul class="navbar-list clearfix" id="J_tabNavs" role="tablist" aria-label="邮箱标签">
+                    <li class="common bar-active" title="首页" data-type="common" role="tab" aria-selected="false"><a href="javascript:;" class="tab-list-item" unselectable="on">首页</a></li>
+                    <li id="contact-tabNav" class="common" title="联系人" data-type="common" role="tab" aria-selected="false"><a href="javascript:;" class="tab-list-item" unselectable="on">联系人</a></li>
+                    <li id="j-filecenter-li" class="common" title="附件中心" data-type="common" role="tab" aria-selected="false"><a href="javascript:;" class="tab-list-item" unselectable="on">附件中心</a></li>
+                    <li id="j-schedule-li" class="common J_default_tabNav" title="我的日程" data-type="surfingtool" data-typetool="schedule" role="tab" aria-selected="false"><a href="javascript:;" class="tab-list-item" unselectable="on">我的日程</a></li>
+                    <li class="common" title="收件箱" id="J_change_tabNav" data-id="1" data-type="common" role="tab" aria-selected="false"><a href="javascript:;" class="tab-list-item" unselectable="on">收件箱</a></li>
+                    <li id="readtab-barmore" class="barmore" style="display:none;" role="tab" aria-selected="false">
+                        <a class="dropdown-toggle" href="javascript:;" data-toggle="dropdown">
+                            <b class="triangle triangle-down"></b>
+                        </a>
+                        <ul id="readtab-dropdown" class="dropdown-menu">
+                            <div class="scrollbar_drop">
+                                <li id="close-all-readtab">
+                                    <a href="javascript:;" class="now" unselectable="on">关闭全部</a>
+                                </li>
+                                <li class="divider"></li>
+                            </div>
+                        </ul>
+                    </li>
+                    <li id="commontab-split" style="display: none;" role="tab" aria-selected="false"></li>
+                    <li id="commontab-barmore" class="barmore more" role="tab" aria-selected="false">
+                        <a class="dropdown-toggle" href="javascript:;" data-toggle="dropdown">
+                            <b class="triangle triangle-down"></b>
+                        </a>
+                        <ul id="commontab-dropdown" class="dropdown-menu">
+                            <div class="scrollbar_drop">
+                                <li id="close-all-droptab">
+                                    <a href="javascript:;" class="now" unselectable="on">关闭全部</a>
+                                </li>
+                                <li class="divider"></li>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="search input-search header-search j-header-search" role="search">
+            <div class="placeholder-search j-placeholder-search">邮件搜索</div>
+            <input type="text" id="search-input"  class="input j-autoTest-search" x-webkit-speech lang="zh-CN" autocomplete="off" />
+            <ul class="dropdown-menu j-attach-dropdown-menu" tabindex="0" hidefocus="hidefocus">
+                <li searchKey="fullsearch" style="display:none;" role="menuitem" tabindex="-1">
+                    <a href="javascript:;">包含<label class="search_keyword"></label>的邮件&nbsp;<span style="color: #b3b3b3;">(全文搜索)</span></a>
+                </li>
+                <li searchKey="mail" style="display:none;" role="menuitem" tabindex="-1">
+                    <a href="javascript:;">包含<label class="search_keyword"></label>的邮件&nbsp;<span style="color: #b3b3b3;">(标题+收发件人)</span></a>
+                </li>
+                <li searchKey="attachment" style="display:none;" role="menuitem" tabindex="-1">
+                    <a href="javascript:;">包含<label class="search_keyword"></label>的附件</a>
+                </li>
+                <li searchKey="contact" style="display:none;" role="menuitem" tabindex="-1">
+                    <a href="javascript:;">包含<label class="search_keyword"></label>的联系人</a>
+                </li>
+                <li searchKey="ecloudfile" style="display:none;" role="menuitem" tabindex="-1">
+                    <a href="javascript:;">包含<label class="search_keyword"></label>的云盘文件</a>
+                </li>
+                <li class="divider" style="display: none;" role="menuitem" tabindex="-1"></li>
+                <li id="pre-search-show" role="menuitem" tabindex="-1"><a href="javascript:;" class="preSearch">高级搜索...</a></li>
+            </ul>
+            <a hidefocus="hidefocus" title="回车(enter)"><i class="j-search-header icon-search"></i></a>
+        </div>
+    </div>
+    <div class="content" id="J_main_frame" >
+        <div id="j_mf_pannel_mail" class="j_mf_pannel">
+            <div class="main full-height" id="J_main_frame_cnt">
+                <div class="j_mfc_pannel index-main-pannel index-view" id="j_mfc_pannel_index" data-type="index">
+
+                </div>
+                <div id="1" class="j_mfc_pannel main-mail" data-type="inbox" style="display:none">
+                </div>
+                <div class="j_mfc_pannel mail-search-view" data-type="search" role="search">
+                    <div id="search-result" class="result"></div>
+                    <div id="pre-search" class="m-module-view form">
+                        <div class="search-header">
+                            <span class="title">高级搜索</span>
+                        </div>
+                        <div class="form-item">
+                            <div class="fl form-item-label">搜索类型：</div>
+                            <div class="fl w-300 search-advanced">
+                                <label class="radio-label lable-mail"><i class="icon-radio j-radio-search j-radio-mail checked" data-type="mail"></i> 邮件</label>
+                                <label class="radio-label"><i class="icon-radio j-radio-search" data-type="attach"></i> 附件</label>
+                            </div>
+                        </div>
+                        <div class="form-item">
+                            <div class="fl form-item-label">搜索范围：</div>
+                            <div class="fl w-300">
+                                <select id="pre-search-labelId" class="selectpicker">
+                                    <option value="-1">所有邮件</option>
+                                    <option value="1">收件箱</option>
+                                    <option value="2">草稿箱</option>
+                                    <option value="3">已发送</option>
+                                    <option value="4">垃圾箱</option>
+                                    <option value="5">已删除</option>
+                                    <option value="6">定时邮件夹</option>
+                                    <option value="7">广告邮件</option>
+                                    <!-- <option value="8">安全邮件夹</option> -->
+                                    <option value="9">官方活动</option>
+                                    <option value="102">我的账单</option>
+                                    <option value="104">星标邮件</option>
+                                    <option value="105">存档邮件夹</option>
+                                </select>
+
+                                <select id="pre-search-attach" class="selectpicker" style="display:none">
+                                    <option value="all">全部</option>
+                                    <option value="zip">压缩包</option>
+                                    <option value="doc">文档</option>
+                                    <option value="image">图片</option>
+                                    <option value="multimedia">多媒体</option>
+                                </select>
+                            </div>
+
+                            <div class="fl w-300" style="margin-left: 20px;">
+                                <select id="pre-search-docType" class="selectpicker" style="display:none">
+                                    <option value="all">全部</option>
+                                    <option value="txt">文本</option>
+                                    <option value="excel">表格</option>
+                                    <option value="ppt">幻灯片</option>
+                                    <option value="pdf">pdf</option>
+                                </select>
+                            </div>
+
+                        </div>
+                        <div class="form-item j-item-attachName" style="display:none;">
+                            <div class="fl form-item-label">搜索主题：</div>
+                            <div class="fl w-300">
+                                <input type="text" id="pre-search-attachName" class="input" placeholder="输入附件关键词">
+                            </div>
+                        </div>
+                        <div class="form-item j-item-mail">
+                            <div class="fl form-item-label">发件人：</div>
+                            <div class="fl w-300">
+                                <input type="text" id="pre-search-from" class="input" placeholder="输入发件人邮箱地址，昵称">
+                            </div>
+                        </div>
+                        <div class="form-item j-item-mail">
+                            <div class="fl form-item-label">收件人：</div>
+                            <div class="fl w-300">
+                                <input type="text" id="pre-search-to" class="input" placeholder="输入收件人邮箱地址，昵称">
+                            </div>
+                        </div>
+                        <div class="form-item j-item-mail">
+                            <div class="fl form-item-label">主题：</div>
+                            <div class="fl w-300">
+                                <input type="text" id="pre-search-subject" class="input" placeholder="输入邮件主题">
+                            </div>
+                        </div>
+                        <div class="form-item full-mail-search">
+                            <div class="fl form-item-label">正文内容：</div>
+                            <div class="fl w-300"><input type="text" id="pre-search-content" class="input" placeholder="输入邮件正文内容"></div>
+                        </div>
+
+                        <div class="form-item full-mail-search">
+                            <div class="fl form-item-label">附件名：</div>
+                            <div class="fl w-300"><input type="text" id="pre-search-annex" class="input" placeholder="输入邮件附件名"></div>
+                        </div>
+                        <div class="form-item j-item-mail">
+                            <div class="fl form-item-label">起始时间：</div>
+                            <div class="fl w-300">
+                                <div class="date-select">
+                                    <div class="date-icon">
+                                        <i class="icon-multi-calendar"></i>
+                                    </div>
+                                    <input type="text" class="span2 input input-date" size="16" type="text" data-date-format="yyyy-mm-dd" id="pre-search-beginDate" readonly>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-item j-item-mail">
+                            <div class="fl form-item-label">结束时间：</div>
+                            <div class="fl w-300">
+                                <div class="date-select">
+                                    <div class="date-icon">
+                                            <i class="icon-multi-calendar"></i>
+                                    </div>
+                                    <input type="text" class="span2 input input-date" size="16" type="text" data-date-format="yyyy-mm-dd" id="pre-search-endDate" readonly>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-footer">
+                            <a href="javascript:;" id="pre-search-submit" class="btn btn-primary btn-send">搜索</a>
+                            <a href="javascript:;" id="pre-search-reset" class="btn">重置</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="j_mfc_pannel" id="j_mfc_pannel_sendSuccess" data-type="sendsuccess" style="display:none">
+
+                </div>
+                <div class="j_mfc_pannel" id="j_mfc_pannel_status" data-type="sendstatus" style="display:none;"></div>
+                <div class="j_mfc_pannel m-module-view surfingtoolmain" id="j_mfc_pannel_surfingtool" data-type="surfingtool"   style="display:none;"></div>
+                <div class="j_mfc_pannel" id="j_mfc_pannel_readcenter" data-type="readcenter" style="display:none;"></div>
+            </div>
+            <div class="aside" role="navigation">
+                <div class="aside-inner aside-home " role="navigation">
+                    <div class="newMail j-scrollingHead btn-aside-wrap aside-padding">
+                        <a class="btn--aside j-autoTest-writeMail" href="javascript:;" role="button">
+                            写邮件
+                            <i class="icon-btn-write aside-btn-write"></i>
+                        </a>
+                    </div>
+                    <div class="aside-scroll j-scrollingCon aside-padding" id="scrollbar">
+                        <ul id="sysBoxList-default" class="aside-menu" role="tree" aria-label="左侧导航">
+                            <li role="treeitem" title="收件箱"><a id="maillist-1" class="j-mail-drag-target" href="javascript:;" data-id="1" title="收件箱" data-type="common" role="treeitem">收件箱<span class="mailAcount"></span></a></li>
+                            <li role="treeitem" title="星标邮件"><a id="maillist-104" class="j-mail-drag-target" href="javascript:;" data-id="104" title="星标邮件" data-type="common" role="treeitem">星标邮件<span class="mailAcount"></span></a></li>
+                            <li role="treeitem" title="已发送"><a id="maillist-3" class="j-mail-drag-target" href="javascript:;" data-id="3" title="已发送" data-type="common" role="treeitem">已发送<span class="mailAcount"></span></a></li>
+                            <li role="treeitem" title="草稿箱"><a id="maillist-2" href="javascript:;" data-id="2" title="草稿箱" data-type="common" role="treeitem">草稿箱<span class="mailAcount"></span></a></li>
+                        </ul>
+                        <ul id="sysBoxList-custom" class="aside-menu" style="padding:0;" role="tree" aria-label="左侧导航"></ul>
+                        <ul class="aside-link" role="tree" aria-label="左侧导航">
+                            <li role="treeitem">
+                                <a href="javascript:;" role="treeitem" title="其他文件夹" class="j-mail-drag-target folder-parent">
+                                    <i class="triangle triangle-right"></i>
+                                    <label>其他文件夹</label>
+                                    <span class="mailAcount" id="mailCustomCount"></span>
+                                    <i class="add  icon-plus J_createboxmain" stopPropagation="true" data-toggle="modal"  title="新建文件夹"></i>
+                                    <i class="setting j-setting icon-cog" stopPropagation="true" data-type="folder" title="管理文件夹"></i>
+                                </a>
+                                <ul class="aside-menu" style="display:none;" role="tree" aria-label="左侧导航">
+                                    <li id="sysBoxList-other" role="treeitem"></li>
+                                    <li id="customBoxList" role="treeitem"></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- <span class="aside-divider"></span>
+                        <ul class="aside-menu" role="tree" aria-label="左侧导航"> -->
+                            <!-- <li role="treeitem" title="我的短信"><a id="open-sms" href="javascript:;" style="display:none;" role="treeitem" title="我的短信">我的短信</a></li> -->
+                            <!-- <li id="j-multimail-li" role="treeitem" title="群邮件"><a id="open-multimail" href="javascript:;" role="treeitem" title="群邮件">群邮件</a></li> -->
+                            <!-- <li role="treeitem" title="邮件订阅"><a id="open-readcenter" style="display:none;" href="javascript:;"  data-type="readcenter" role="treeitem" title="邮件订阅">邮件订阅<span class="mailAcount"></span></a></li> -->
+                        <!-- </ul> -->
+                        <span class="aside-divider"></span>
+                        <ul class="aside-link" role="tree" aria-label="左侧导航">
+                            <li role="treeitem">
+                                <a href="javascript:;" role="treeitem" title="自定义标签" class="j-mail-drag-target folder-parent">
+                                    <i class="triangle triangle-right"></i>
+                                    <label>自定义标签</label>
+                                    <span class="mailAcount" id="mailLableCount"></span>
+                                    <i class="add  icon-plus j-aside-createLabel" stopPropagation="true" data-toggle="modal"  title="添加标签"></i>
+                                    <i class="setting  j-setting icon-cog" stopPropagation="true" data-type="label" title="管理标签"></i>
+                                </a>
+                                <ul id="customLabelList" class="accordion-menu" role="tree" aria-label="左侧导航"></ul>
+                            </li>
+                            <li role="treeitem">
+                                <a href="javascript:;" role="treeitem" title="其他邮箱" class="j-mail-drag-target folder-parent">
+                                    <i class="triangle triangle-right"></i>
+                                    <label>其他邮箱</label>
+                                    <span class="mailAcount" id="mailPopCount"></span>
+                                    <i class="add  icon-plus" stopPropagation="true" data-type="other/new" title="新建代收邮件账号" id="j-aside-newOther"></i>
+                                    <i class="setting j-setting icon-cog" stopPropagation="true" data-type="other" title="管理代收邮件"></i>
+                                </a>
+                                <ul id="popBoxList" class="accordion-menu" role="tree" aria-label="左侧导航"></ul>
+                            </li>
+                        </ul>
+                        <div class="aside-fix-height">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+            <div id="add-folder" class="modal hide fade">
+                <div class="modal-dialog box-modal-view">
+                    <div class="modal-header">
+                        <button type="button" class="modal-close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h3 class="modal-title">新建文件夹</h3>
+                    </div>
+                    <div class="modal-body modal-body-form">
+                      <div class="form-item form-item-label-v">文件夹名称:</div>
+                      <div  class="form-item form-item-last">
+                        <input type="text" class="tI input" id="J_CreateBoxName" autocomplete="off"></td>
+                      </div>
+                      <div class="notice" id="j-aside-createBox-notice">&nbsp;</div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="javascript:;" id="add-folder-summit" class="btn btn-primary J_CreateBoxButton">确定</a>
+                        <a href="javascript:;" id="add-folder-cancel" class="btn" data-dismiss="modal" aria-hidden="true">取消</a>
+                    </div>
+                </div>
+            </div>
+			<div id="add-tag" class="modal hide fade">
+                <div class="modal-dialog label-modal-view">
+                    <div class="modal-header">
+                        <button type="button" class="modal-close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h3 class="modal-title">新建标签</h3>
+                    </div>
+                    <div class="modal-body modal-body-form">
+                        <div class="form-item">
+                            <div class="fl form-item-label">标签名称:</div>
+                            <div class="fl"><input type="text" id="tag-name-input" class="tI input" autocomplete="off"></div>
+                        </div>
+                        <div class="form-item form-item-last">
+                            <div class="fl form-item-label">标签颜色:</div>
+                            <div class="fl w-110">
+                                <div class="btn-dropdown dropdown">
+                                    <a class="btn dropdown-toggle fix-wi" data-toggle="dropdown" href="javascript:;">
+                                        <span class="icon-color" id="tag_color" style="background-color:#729c3b"></span>
+                                        <b class="caret"></b></a>
+                                    <ul class="dropdown-menu" role="navigation">
+                                        <li>
+                                            <select id="tag-color-picker" name="colorpicker-inline-background">
+                                                <option value="#729c3b" data-id="1">#729c3b</option>
+                                                <option value="#58a8b4" data-id="2">#58a8b4</option>
+                                                <option value="#e3a325" data-id="3">#e3a325</option>
+                                                <option value="#6d72ba" data-id="4">#6d72ba</option>
+                                                <option value="#da8a22" data-id="5">#da8a22</option>
+                                                <option value="#5883bf" data-id="6">#5883bf</option>
+                                                <option value="#b34731" data-id="7">#b34731</option>
+                                                <option value="#bb4c91" data-id="8">#bb4c91</option>
+                                                <option value="#995aae" data-id="9">#995aae</option>
+                                                <option value="#cc0000" data-id="10">#cc0000</option>
+                                                <option value="#fcd468" data-id="11">#fcd468</option>
+                                                <option value="#ff9966" data-id="12">#ff9966</option>
+                                            </select>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notice" id="j-aside-createLabel-notice">&nbsp;</div>
+                    </div>
+                    <div class="modal-footer">
+                        <a id="add-tag-summit" href="javascript:;" class="btn btn-primary">确定</a>
+                        <a id="add-tag-cancel" href="javascript:;" class="btn" data-dismiss="modal" aria-hidden="true" >取消</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="j_mf_pannel_contact" class="j_mf_pannel" style="display:none;"></div>
+        <div id="j_mf_pannel_attachment" class="j_mf_pannel" data-type="attachment" style="display:none;"></div>
+        <div id="j_mf_pannel_mySchedule" class="j_mf_pannel" style="display:none;">
+            <iframe allowtransparency="true" frameborder="0" height="100%" width="100%" style="height: 100%;width: 100%" src="" ></iframe>
+        </div>
+        <div id="j_mf_pannel_write" class="j_mf_pannel" data-id="0" data-type="write" style="display:none;">
+        </div>
+    </div >
+
+    <ul id="mouseMenu" class="mouseMenu" role="navigation">
+        <li> <a href="javascript:;" data-type="reply" class="mouseMenuReply">回复</a> </li>
+        <li> <a href="javascript:;" data-type="forward" class="mouseMenuReply">转发</a> </li>
+        <li> <a href="javascript:;" data-flagtype="1" class="mouseMenuFlag">标记已读</a> </li>
+        <li class="mouseTo">
+            <a href="javascript:;">移动至<b class="caret"></b></a>
+            <ul id="mouseMoveTo" role="tree" aria-label="左侧导航" class="moveToMenu">
+                <li role="treeitem"> <a href="javascript:;" data-targetid="1" role="treeitem">收件箱</a> </li>
+                <li role="treeitem"> <a href="javascript:;" data-targetid="4" role="treeitem">垃圾箱</a> </li>
+                <li role="treeitem"> <a href="javascript:;" data-targetid="3" role="treeitem">已发送</a> </li>
+                <li role="treeitem"> <a href="javascript:;" data-targetid="8" role="treeitem">安全邮件夹</a></li>
+                <li role="treeitem"> <a href="javascript:;" data-targetid="11" role="treeitem">我的发票</a> </li>
+                <li role="treeitem"> <a href="javascript:;" data-targetid="102" role="treeitem">我的账单</a> </li>
+                <li role="treeitem"> <a href="javascript:;" data-targetid="9" role="treeitem">官方活动</a> </li>
+                <ul id="floder-custom-3"></ul>
+                <ul id="floder-custom-4"></ul>
+            </ul>
+        </li>
+        <li> <a href="javascript:;" data-targetid="5">删除</a> </li>
+    </ul>
+</div>
+
+<div id="J_ModalOperation" class="modal hide fade" style="display: none;"></div>
+<div id="j-modal-agreement" class="modal hide fade modal-agreement" style="display: none;"></div>
+
+<div id="J_ModalSafeMail" class="modal hide fade">
+    <div class="modal-dialog safeMail-modal-view">
+        <div class="modal-header">
+            <button type="button" class="close modal-close J_savaCanle" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h3 class="modal-title">安全邮件夹</h3>
+        </div>
+        <div class="modal-body form">
+            <div class="row form-item">
+                <label class="form-item-label">您的电信手机号码：</label>
+                <span id="telPhone" class="telPhone"></span>
+            </div>
+            <div class="row form-item last-item">
+                <label for="securityCode" class="form-item-label">请输入您的手机验证码：</label>
+                <input type="text" id="securityCode" class="code-input input" autocomplete="off">
+                <a href="javascript:;" class="J-getCode send-code">发送验证码</a>
+        </div>
+        </div>
+        <p class="notice" style="margin-top: -18px;height: 18px;"></p>
+        <div class="modal-footer">
+            <a href="javascript:;" class="btn btn-primary J_submitCode">确定</a>
+            <a href="javascript:;" class="btn J_submitCancle" data-dismiss="modal" aria-hidden="true">取消</a>
+        </div>
+    </div>
+</div>
+
+<div id="J_ModalSmsOpen" class="modal hide fade" data-backdrop="static">
+    <div class="modal-dialog safeMail-modal-view smsMail-modal-view">
+        <div class="modal-header">
+            <button type="button" class="close modal-close J_savaCanle" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h3 class="modal-title">短信设置</h3>
+        </div>
+        <div class="modal-body form" style="height:125px;padding-top: 32px;">
+            <div class="row form-item" style="font-size:14px;line-height: 24px;">
+                <!-- <label class="form-item-label">您的电信手机号码：</label>
+                <span id="telPhone" class="telPhone"></span> -->
+                您已成功开通短信提醒，可以随时接收<span class="j-sms-sender" style="word-break: break-all;">新邮件短信提醒</span>，
+                详情可前往设置--提醒服务--新邮件到达短信提醒中查看。
+            </div>
+            <!-- <div class="row form-item last-item">
+                <label for="securityCode" class="form-item-label">请输入您的手机验证码：</label>
+                <input type="text" id="securityCode" class="code-input input" autocomplete="off">
+                <a href="javascript:;" class="J-getCode send-code">发送验证码</a>
+            </div> -->
+        </div>
+        <div class="modal-footer">
+            <a href="javascript:;" class="btn btn-primary J_submitSms">我知道了</a>
+        </div>
+    </div>
+</div>
+
+<div id="J_ModalOperationGroup" class="modal hide fade" style="display: none;"></div>
+
+<div id="jubaoCon" class="modal hide fade in" aria-hidden="false">
+    <div class="modal-dialog confirm">
+        <div class="modal-body">
+            <div class="confirm-body">
+                <i class="icon icon-warning-blue"></i>
+                <span class="confirm-title">举报确认</span>
+                <div class="confirm-content">
+                    <div class="mb-2">您确定投诉该邮件为垃圾邮件吗？</div>
+                    <div><i class="J-isblack icon-ck ml-checked"></i>将发件人邮箱地址设置为黑名单</div>
+                </div>
+            </div>
+            <div class="confirm-btns">
+                <a id="report-confirm" href="javascript:;" class="btn btn-primary j-blackSure">确定</a>
+                <a href="javascript:;" class="btn" data-dismiss="modal" aria-hidden="true">取消</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="j-ad-tip" class="modal hide fade in" aria-hidden="false">
+    <div class="modal-content confirm confirm-ad-tip">
+        <div class="modal-body">
+            <div class="confirm-body">
+                <i class="icon icon-warning-blue"></i>
+                <span class="confirm-title">标记广告邮件</span>
+                <div class="confirm-content">
+                    <div class="mb-2" id="j-ad-tipText"></div>
+                    <div class="black-sender-list" id="j-ad-blackSenderList"></div>
+                </div>
+            </div>
+            <div class="confirm-btns">
+                <a id="j-ad-sure" href="javascript:;" class="btn btn-primary">确定</a>
+                <a href="javascript:;" class="btn" data-dismiss="modal" aria-hidden="true">取消</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="trust_mail" class="modal hide fade in"  aria-hidden="false">
+    <div class="modal-dialog confirm">
+        <div class="modal-body">
+            <div class="confirm-body">
+                <i class="icon icon-warning-blue"></i>
+                <span class="confirm-title">信任邮件确认</span>
+                <div class="confirm-content">
+                    <div class="mb-2">所选邮件将被移动到收件箱</div>
+                    <div><i class="J-isblack icon-ck ml-checked"></i>将发件人邮箱地址设置为白名单</div>
+                </div>
+            </div>
+            <div class="confirm-btns">
+                <a id="trust-confirm" href="javascript:;" class="btn btn-primary j-trustSure">确定</a>
+                <a href="javascript:;" class="btn" data-dismiss="modal" aria-hidden="true">取消</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="outReadNum" class="modal hide fade " style="display: none;">
+    <div class="modal-dialog readNum-modal-view">
+        <div class="modal-header">
+            <button type="button" class="close modal-close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h3 class="modal-title">系统提示</h3>
+        </div>
+        <div class="modal-body">
+            <div class="security-con">
+                <h2><i class="icon-warning-big"></i>已超过阅读次数限制</h2>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="javascript:;" class="btn btn-primary" data-dismiss="modal" aria-hidden="true">确定</a>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="officeLayer modal hide fade" id="j-officeLayer" >
+    <div class="modal-dialog modal-officeLayer-view">
+        <div class="modal-header">
+            <button type="button" class="rm-icon preview-back" data-dismiss="modal" aria-hidden="true"></button>
+        </div>
+        <div class="modal-body j-layerBody" >
+        </div>
+    </div>
+</div>
+
+<script id="tmpl-modalPreview" type="text/template" >
+    <div class="officeLayer-bg" id="j-officeLayerBg">
+        <div class="officeLayer-tool">
+            <ul class="clearfix">
+                <li>
+                    <a href="<&= dlUrl &>">
+                        <i class="rm-icon preview-download" ></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="<&= openUrl &>" target="_blank" >
+                        <i class="rm-icon preview-open" ></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <iframe id="j-officeIframe" allowFullScreen="true" class="officeIframe" width="100%" height="100%" frameborder="0" src="<&= pvUrl &>"></iframe>
+    </div>
+</script>
+
+
+    <script id="tmpl_addAddressToContract" type="text/template">
+        <div class="J_addContacrModal addContacrModal">
+            <div class="placeHoder">&nbsp; </div>
+            <div class="triangleIcon"></div>
+            <div class="triangleIcon1"></div>
+            <h2 class="contractName"><&= name?name:'' &></h2>
+            <div class="description">
+                <span class="address"><&= address &></span>
+                <a href="javascript:;" class="contractMail">往来邮件</a>
+            </div>
+            <div class="J_btnArea clearfix contact-btn-group">
+                <a href="javascript:;" class="comfirm cantAddContact">添加到联系人</a>
+                <a href="javascript:;" class="j-sms-tip sms-tip sms-tip-active">设置短信提醒</a>
+                <a href="javascript:;" class="refuse">拒收</a>
+            </div>
+        </div>
+    </script>
+
+<script id="tmpl_recalltable" type="text/template">
+    <td class="status-name"><&= receiver &></td>
+    <td class="status-status">
+       <&= message &>
+    </td>
+</script>
+
+<script id="tmpl-labelList" type="text/template">
+    <& _.each(customLabelList,function(item){ &>
+        <& if(item.name != ""){ &>
+            <div class="ml-tags" data-id="<&= item.id &>">
+                <div class="ml-tag">
+                    <span class="label" style="background-color:<&= window.mail.labelColor[item.color.toString()==''?'0':item.color.toString()] &>"><&= item.name &></span>
+                    <span class="ml-close label-close"><b class="icon-remove" style="background-color:<&= window.mail.labelColor[item.color.toString()==''?'0':item.color.toString()] &>"></b></span>
+                </div>
+            </div>
+        <& } &>
+    <& }); &>
+</script>
+<script id="tmpl-operateItem" type="text/template">
+    <& if(setLabel){ &>
+    <a href="javascript:;" class="set-label" data-targetId="<&= id &>" data-color="<&= color &>"><i class="tagC" style="background-color:<&= window.mail.labelColor[color.toString()==''?'0':color.toString()] &>;"></i><&= name &></a>
+    <& }else{ &>
+    <a href="javascript:;" class="move-to" data-targetId="<&= id &>"><&= name &></a>
+    <& } &>
+</script>
+<script id="tmpl-mailListMailCount" type="text/template">
+    <& if(searchMailCount){ &>
+        已搜索到 <&= mailCount &> 封<&= keyword.replace(/</ig,"&lt;").replace(/>/ig,"&gt;") &>
+    <& }else{ &>
+        共<span class="total"><&= mailCount &></span>封
+        <& if(showNewMailCount){ &>
+        ，<span class="unread"><&= newMailCount &></span>封
+        <& } &>
+    <& } &>
+</script>
+<script id="tmpl-boxList" type="text/template">
+    <& if(id != 10){&>
+        <a id="maillist-<&= id &>" <& if(id != 6){&>class="j-mail-drag-target"<& } &> href="javascript:;" data-id="<&= id &>" title="<&= name &>" data-type="common">
+            <& if(typeof label != 'undefined'){ &>
+            <span class="colorP" style="background-color:<&= window.mail.labelColor[color.toString()==''?'0':color.toString()] &>"></span>
+            <& } &>
+            <label><&= name &></label>
+            <& if(id == 4 || id == 5 || id == 7){ &>
+                <b class="j-clean clean icon-clean" title="清空" >
+                    <b class="icon-clean-head animation-icon--open  clean-head"></b>
+                    <b class="icon-clean-body clean-body"></b>
+                </b>
+            <& } &>
+            <& if(newMailCount > 0){&>
+                <span class="mailAcount">(<&= newMailCount &>)</span>
+            <&}&>
+        </a>
+    <&}&>
+
+</script>
+<script id="tmpl-noSearchList" type="text/template">
+    <div class="none-notice">
+        <div class="none-notice-text none-notice-text-suggest" >没有搜索到<&= noticeText &>
+            <div class="suggest-text">
+                <p>建议您参考以下方式操作：</p>
+                <p>1、删除关键词中的特殊符号，重新进行搜索</p>
+                <p>2、检查关键词输入是否有误，或者更换为常用词组进行搜索</p>
+                <p>3、使用高级搜索功能进行搜索</p>
+            </div>
+        </div>
+    </div>
+</script>
+ <script id="tmpl-noListNotice" type="text/template">
+    <i class="none-notice-icon none-icon-<&- icon &>"></i>
+    <div class="none-notice-title"><&- title &></div>
+    <div class="none-notice-text"><&= tips &></div>
+    <&= extra &>
+</script>
+<script id="tmpl-mailListHD" type="text/template">
+    <div class="mail-list-hd list-hd">
+        <span><&= groupName &></span><label>（<&= groupMailCount &>）</label>
+    </div>
+    <div class="mail-list-bd list-bd"><ul class="mail-list-mode"></ul></div>
+</script>
+<script id="tmpl-mailList" type="text/template">
+    <div class="mail-list-bd-item<& if(newMail){ &> ml-unread <& } &>" id="<&= messageIdHtmlId.replace(/[:,.]/g,'') &>" data-messageid="<&= messageId &>">
+        <!--邮件列表-->
+        <div class="ml-header">
+            <& if(labelIdList[0] !== 10){ &>
+            <div class="ml-drag j-mail-drag"><i class="icon-drag icon-maillist-drag"></i></div>
+            <& } &>
+            <div class="f-pa ml-index <& if(isIndex){&>icon-maillist-current<&}else{&><&}&>"></div>
+            <div class="f-pa ml-check j-check" title="选中此邮件">
+                <i class="j-icon-check icon-check <&- autoTestSelect &>"></i>
+            </div>
+            <div class="ml-icon-con">
+                <div class="<&- iconConClass &>" title="<&- iconConTitle &>"></div>
+                    <& if(priority == 72){ &>
+                        <div class="f-pa ml-instancy icon-maillist-instancy" title="紧急邮件"></div>
+                    <& } &>
+                </div>
+                <div class="ml-from" title='<&- sendtolist &>'>
+                    <span>
+                        <& if(labelIdList[0] == 2 || labelIdList[0] == 3){&>
+                            <&= receiver &>
+                            <&}else{&>
+                            <&= sender &>
+                        <&}&>
+                   </span>
+                   <& if(ad == true){&>
+                        <span class="s_ad_icon">AD</span>
+                   <&}&>
+                    <& if(vmail == true){&>
+                        <i class="icon-maillist-official" title="189邮箱系统邮件"></i>
+                    <&}else if(scheduleMail){&>
+                        <i class="icon-maillist-notice ml-notice" title="189日程提醒"></i>
+                    <&}&>
+
+                </div>
+
+                <& if(showStar){&>
+                    <div class="f-pa icon-maillist-star j-ml-star ml-star <&- starIconClass &>" title="<&- starIconTitle &>"></div>
+                <& } &>
+                    
+                <div class='ml-schedule'>
+                    <div class="f-mt--2 icon-maillist-schedule j-ml-schedule ml-f" title="加入日程提醒" data-text="schedule"></div>
+                </div>
+            </div>
+        <div class="ml-title <&- autoTestTitle &>">
+            <& if(search || isSmartLabel){ &>
+                <div class="ml-floder">
+                    <&- folderName &>
+                </div>
+            <& } &>
+            <div class="ml-con">
+                <span class="ml-con-title ml-ellipsis">
+                    <span class="title">
+                    <& if(search){&>
+                        <&= searchSubject.replace(/&nbsp;/g,' ') &>
+                    <&}else{&>
+                        <&= subject.replace(/&nbsp;/g,' ') &>
+                    <&}&>
+					&nbsp;
+                    <& if(showSafeInfo){ &>
+                        <&- showSafeName &>
+                    <& } &>
+                    </span>
+                    <& if(mailSessionSize) { &>
+                        <span>（<&= mailSessionSize &>）</span>
+                    <& } &>
+                    <& if(showAbstract){ &>
+                        <label class="j-ml-abstract ml-con-detail"><&= abstract &></label>
+                    <& } &>
+                </span>
+            </div>
+        </div>
+        <div class="ml-tf">
+            <div class="ml-time"><&= sendDate &></div>
+            <& if(hasAttachement){ &>
+            <div class="ml-f" title="此邮件包含附件">
+                <i class="icon-maillist-annex ml-annex"></i>
+            </div>
+            <& } &>
+            <& if(signet){ &>
+            <div class="ml-f" title="此邮件已使用电子名章">
+                <i class="icon-maillist-signet"></i>
+            </div>
+            <& } &>
+        </div>
+        <!--邮件列表end-->
+    </div>
+</script>
+
+<div id="static-mailList" style="display:none;">
+    <!--收件箱顶部菜单-->
+        <div class="toolbar toolbar-maillist maillist_tool j-scrollingHead j-mail-toolbar">
+        </div>
+    <!--总体信息-->
+    <div id="divSplitter" class="splitter_panel">
+        <div class="mail-content-scoll j-scrollingCon mail-list-normal">
+            <div class="adv_maillist alert mainRemind" id="adv_maillist" style="display:none;">
+            <!-- 1737：Web收信页置顶文字链-新版 类型：固定广告位 尺寸：230x25 -->
+            </div>
+            <div class="pop3-notify mainRemind clearfix" id="J_pop3_notify" style="display: none;">
+                <p class="pop3-notify-l">我们发现您的邮件被收信软件收取并删除。</p>
+                <span class="pop3-notify-r"><a target="_blank" id="J_helpandclosepop3" href="javascript:;">帮助</a><a id="J_closepop3Notify" href="javascript:;">关闭</a></span>
+            </div>
+            <div class="countAll" style="display:none;">
+                <span>
+                    <span class="fast-count"></span>
+                    <a class="search-all" href="javascript:;" data-mailflag="0" style="display:none;">返回全部邮件</a>
+                    <a class="search-unread" href="javascript:;" data-mailflag="1">未读邮件</a>
+                    <a class="set-all-read" href="javascript:;" data-flagtype="1" data-setall="true">全部设为已读</a>
+                </span>
+            </div>
+            <!--总体信息end-->
+            <div class="spaceCapacity alert mainRemind" style="display:none" >
+                <a class="close" data-dismiss="alert" href="#">&times;</a>
+                      您邮箱的剩余容量已不足10%，请及时清理邮件，或
+                <a href="https://webmail30.189.cn/w2/vip/index.html" target="_blank" class="multi-color">升级邮箱</a>
+            </div>
+            <div class="mailSendStatus alert mainRemind"  >
+                <a href="javascript:;" class="checkStatuslink" id="checkStatuslink">查询发信投递状态</a>
+            </div>
+            <div class="j-mail-rubbish alert mainRemind"  >
+                系统自动清理超过30天的垃圾邮件
+            </div>
+            <!-- <div class="j-mail-advert alert mainRemind"  >
+                系统自动清理超过30天的广告邮件
+            </div> -->
+            <div class="j-mail-deleted alert mainRemind"  >
+                系统自动清理来信时间在30天前的已删除邮件
+            </div>
+            <!--收件箱顶部菜单end-->
+            <div class="mail-wrap">
+                <div class="mail-list list"></div>
+                <div class="pager pager-bottom j-pageCon">
+                    <a href="javascript:;" class="pre j-pre-big icon-chevron-left--bigInbox"></a>
+                    <a href="javascript:;" class="next j-next-big icon-chevron-right--bigInbox"></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+<!--三栏读信默认显示状态-->
+<div id="static-readmail-three" style="display:none;">
+    <div class="j-static-rm">
+        <div class="none-notice j-rm-notice" style="display:block;">
+            <i class="none-notice-icon none-icon-other"></i>
+            <div class="none-notice-text">未选择任何邮件</div>
+        </div>
+    </div>
+</div>
+
+
+<div id="static-readMail-template" style="display:none;"></div>
+
+<div id="j-smtp-netUser-validate" class="modal hide fade smtp_modal" data-backdrop="static">
+    <div class="modal-dialog smtp-validate-view">
+        <div class="modal-header">
+            <button type="button" class="close modal-close J_smtp_close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 class="modal-title" style="margin-top:-6px;">收信开通验证</h3>
+        </div>
+        <div class="modal-body">
+            <div  class="content">
+                <div class="qr-code-wrapper">
+                    <img class="qr-code" src="" alt="qr-code" style="display:none">
+                    <div class="qr-code-error" id="j-user-qr-code-error" style="display:none">
+                        <p class="timeout-error-text">二维码已失效</p>
+                        <a id="j-user-refresh-smtp-code" class="refresh-btn">请点击刷新</a>
+                    </div>
+                </div>
+                <p class="tips">请使用<span class="mobile j-mobile"></span>号码的手机</p>
+                <p class="tips">在微信或手机浏览器等应用扫一扫</p>
+            </div>
+            <div class="content content-left">
+              <img src="/w2/source/images/smtp-active.png" alt="扫码前请确认手机等网络设置">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../source/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="../source/js/seajs/sea.js?202001161716"></script>
+<script type="text/javascript" src="../source/js/plugins/bootstrap-plugins.js?202001161716"></script>
+<script type="text/javascript" src="../source/js/modules/ueditor/ueditor.min.js?202001161716"></script>
+<script type="text/javascript">
+    seajs.use((seajs.production ? '' : '../source/js/') + 'mail/app.js');
+</script>
+    <div id="j-advFile" style="display:none;"></div>
+<script type="text/javascript" src="https://webchat.7moor.com/javascripts/7moorInit.js?accessId=92f4b1d0-eda7-11e6-9886-e964fbee51ea&amp;language=ZHCN&amp;autoShow=false" async="async"> </script>
+</body>
+</html>
