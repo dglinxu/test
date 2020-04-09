@@ -1,0 +1,313 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<base href="http://132.121.92.224:8813/cas/">
+<meta charset="utf-8"></meta>
+<title>用户登录</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/cas/gd-resource/css/login.css" rel="stylesheet" type="text/css">
+<link href="/cas/gd-resource/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="/cas/gd-resource/css/Untitled-2.css" rel="stylesheet" type="text/css">
+<link href="/cas/gd-resource/css/loginBox.css" rel="stylesheet" type="text/css">
+<!-- jquery dialog -->
+<link href="/cas/ccssoft-css/jqueryDialog/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="/cas/ccssoft-css/jqueryDialog/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.background { 
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 0.4; 
+    filter: alpha(opacity=40); 
+    background:while; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: 2000;
+    background: white url("./ccssoft-css/login/img/loading.gif") no-repeat center;
+}
+.t-right li {
+    height: 39px;
+}
+.t-right li a {
+    color: #999;
+}
+.t-right li a:hover {
+    color: #40C8F4;
+}
+.info {
+    margin-right: auto;
+}
+.Client {
+    margin: 0px;
+    margin-top: -11px;
+}
+.no-padding {
+    padding: 0 !important;
+}
+</style>
+</head>
+<body>
+	<div id="demo" class="qimo8">
+		<div class="qimo">
+			<div id="demo1">
+				<ul>
+					<li><a>为保证系统正常使用，请使用推荐浏览器（Firefox）及安装对应的插件！</a></li>
+					<li><a>【请注意勿将AD专线与AD拨号、ITV手工配置在同一终端上。】关于需求 “AD 专线与 AD 拨号、 ITV 手工配置允许共终端 ( 自配不能共终端 )”（已上线），会导致网管施工产生问题，原功能AD专线与AD拨号、ITV手工配置不允许共终端功能将在7月25日恢复；在7月15日-25日期间，各分公司在人工配置此类工单时，请注意勿将AD专线与AD拨号、ITV手工配置在同一终端上。此功能影响生产场景及人工配置关注点，请见附件（操作指引.doc)，附件请点击首页上方的操作指引。</a></li>
+				</ul>
+			</div>
+			<div id="demo2"></div>
+		</div>
+	</div>
+	<div class="top">
+		<ul class="t-right">
+		    <li class="operationGuide no-padding"><img alt="" src="/cas/gd-resource/imgs/Client.gif" class="info" id="ele1"><a href="http://132.121.92.224:8813/download/operationGuide.docx">操作指引</a></li>
+			<li class="no-padding"><p class="downClient"><img alt="" src="/cas/gd-resource/imgs/Client.gif" class="Client" id="ele1"><a href="http://132.121.92.224:8813/download/firefox%20for%20IRMS.rar">浏览器下载</a></p></li>
+			<li class="Android" id="androidmgr"><a href="http://132.121.92.224:8813/download/AndreoFramework_lastest.apk">移动应用下载<span id="EWM" class="EMS"><img src="/cas/gd-resource/imgs/telantCode.png" /></span></a></li>
+			<li class="about-us"><a href="#">关于我们</a></li>
+			<li class="help"><a href="#">帮助</a></li>
+			
+			<!--  <a><li><marquee direction="left" align="bottom" height="25" width="330px" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="2" scrolldelay="1" class="Rolling">为保证系统正常使用，请使用推荐浏览器（Firefox）及安装对应的插件！</marquee></li></a>-->
+		</ul>
+	</div>
+	
+	<div id="slides" style="overflow: hidden; width: 100%; height: 440px;">
+		<img src="/cas/gd-resource/imgs/firstShow.jpg"> 
+		<img src="/cas/gd-resource/imgs/subway.jpg">
+		<img src="/cas/gd-resource/imgs/wood.jpg">
+	</div>
+
+	<div class="sysSignBox" style="z-index: 11">
+		<div class="top-caption">
+			<div class="caption">平台登录</div>
+		</div>
+		<form id="loginform" action="/cas/login?service=http%3A%2F%2F132.121.92.224%3A8813%2Ftelant%2Fpage%2Flogin.jsp%3Bjsessionid%3DzFPro80UYYN98agQAnvqjVb8PIDZzoGCNanuPt_jr10OZXKN86VD%211684110091"
+			method="post" class="form-horizontal" style="margin-top: 10px">
+			<input type="hidden" name="lt" value="LT-2703860-aXJ4blhVbsj9d6M60yLbP2gFi5Nwbf" /> 
+			<input type="hidden" name="execution" value="e1s1" /> 
+			<input type="hidden" name="passwordEncryptType" id="passwordEncryptType" value="" /> 
+			<input type="hidden" name="_eventId" id="eventId" value="submit" />
+			<input type="hidden" name="_secondAuthentication" id="secondAuthentication" value="">
+			<input type="hidden" name="loginFromSubApp" value="">
+            <!-- ajax请求等待gif -->
+            <div id="scbackground" class="background" style="display: none; "></div>
+			<div class="control-group">
+				<div><label style="width: 47px; margin-top: 5px" class="control-label"
+					for="userName"> <img
+					src="/cas/gd-resource/imgs/email.png">
+				</label></div>
+				<div class="controls" style="margin-left: 65px">
+					<input name="username" value=""
+						style="line-height: 30px; border: solid 2px #40c8f4"
+						type="text" id="userName" class="name" placeholder="请输入账号">
+				</div>
+			</div>
+			<div class="control-group">
+				<div><label style="width: 47px; margin-top: 7px;" class="control-label"
+					for="userPass"> <img
+					src="/cas/gd-resource/imgs/password.png">
+				</label></div>
+				<div class="controls" style="margin-left: 65px">
+					<input name="password" type="password" value=""
+						style="line-height: 30px; border: solid 2px #40c8f4"
+						id="userPass" class="password" placeholder="请输入密码">
+				</div>
+			</div>
+			<!-- CAS短信验证码 -->
+			<div id="casMobileDiv" class="control-group hide">
+			    <div>
+			        <label style="width: 47px; margin-top: 7px;" class="control-label" for="casMobileCode">
+			            <img src="/cas/gd-resource/imgs/casMobileCode.png">
+			        </label>
+                    <div class="controls" style="margin-left: 65px">
+                        <input id="casMobileCode" name="casMobileCode" type="text"
+                          style="border: solid 2px #40c8f4;" class="casMobileCode" placeholder="手机验证码"/>
+                        <button id="casMobileCodeBtn" name="casMobileCodeBtn"
+                          class="casMobileCodeBtn" type="button">获取验证码</button>
+                    </div>
+                </div>
+			</div>
+			<!-- 验证码 -->
+			
+				
+				
+					<div class="control-group" id="verificationCode" style="visibility: hidden;display: none;">
+						<div class="controls" style="margin-left: 65px">
+							<input name="inputCode" type="text" placeholder="输入验证码"
+								style="width: 70px; height: 25px; line-height: 30px; border: solid 2px #40c8f4"
+								id="inputCode" value=""/>
+							<img id="code" src="#" title="看不清？请点击刷新验证码。"/>
+							<span id="flushCode" style="cursor:pointer;color:#0b5eab;">换一张</span>
+						</div>
+					</div>
+				
+			
+			
+			<div class="control-group">
+				<div class="controls" style="margin-left: 65px; margin-top: -15px;">
+					<input type="button" class="btn" name="btnSubmit" id="btnSubmit"
+						style="margin-top: 15px; background: #40c8f4; border: solid 2px #3cbde6; color: #FFF; font-weight: bold; width: 219px;"
+						value="登录" />
+				</div>
+			</div>
+			<div align="center">
+				<font id="errorFont" style="color:red" size="2"><b id="errorMessage"></b></font><br/>
+				<b></b>
+				<b></b>
+			</div>
+		</form>
+	</div>
+	
+	<ul class="about" style="margin-top:10px;">
+		<li class="system-note">
+			<h4>系统更新日志</h4>
+			<p>xxxxxxxxxx</p>
+			<p>xxxxxxxxxx</p>
+		</li>
+		<li class="supervisory-control">
+			<h4>监控管理中心</h4>
+			<p>当前用户数（待定）</p>
+			<p>平台用户数（待定）</p>
+		</li>
+
+		<li class="bug">
+			<h4>友情链接</h4>
+			<p>
+				<a href="#">服务开通</a>
+			</p>
+			<p>
+				<a href="#">能力指标</a>
+			</p>
+		</li>
+		<li class="service">
+            <h4>客服热线</h4>
+            <p>020-38679117</p>
+            <p>020-38679125</p>
+        </li>
+	</ul>
+	<div
+		style="width: 100%; color: #CCC; font-size: 10px; position: absolute; bottom: 0px;">
+		<div style="width: 180px; margin-left: auto; margin-right: auto;">Copyright©
+			2014 CCS SOFT</div>
+	</div>
+	
+	<!-- jquery dialog-form -->
+	<div id="dialog-form" title="修改密码" style="width:50%;height:30%;visibility:hidden;float:left;">
+		<form name="passwordForm" method="post" action="" style="float:left;" id="modifyPwdForm">	
+			<table class="table_report">
+				<tr>
+					<td align="right">登录名：</td>
+					<td>
+						<input type="text" id="userName" name="userName" class="text" readonly value=""/>
+					</td>
+				</tr>
+	
+				<tr>
+					<td align="right" width="50%">原密码：</td>
+					<td width="70%">
+						<input type="password" id="oldPassword" name="oldPassword" onblur="checkOldPassword()"
+							class="text" caption="cname:账号原密码;type:string;isnull:false;" />
+						<font color="red"><span id="tipSpan"></span></font>
+					</td>
+				</tr>
+				<tr>
+					<td align="right">新密码：</td>
+					<td width="70%">
+						<input type="password" id="newPassword" name="newPassword"
+							class="text" caption="cname:账号新密码;type:string;isnull:false;minlen:6;" />
+					</td>
+				</tr>
+				<tr>
+					<td align="right" width="50%">重复新密码：</td>
+					<td  width="70%">
+						<input type="password" name="newPasswordAgain" class="text" id="newPasswordAgain"
+							caption="cname:重复新密码;type:string;isnull:false;" onblur="validateNewPassword()"/>
+						<font color="red"><span id="tipSpan2"></span></font>
+					</td>
+				</tr>
+				<tr>
+					<td align="right"><font color="black">&nbsp;&nbsp;&nbsp;密码复杂度说明：</font> </td>
+					<td><font color="black">1. 至少含8个字符；</font></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><font color="black">2. 至少包含以下三类字符：英文大小写字母、数字。</font> </td>
+				</tr>
+			</table>
+		</form>	
+	</div>
+</body>
+<script src="/cas/gd-resource/js/jquery-1.9.1.min.js"></script>
+<script src="/cas/gd-resource/js/bootstrap.min.js"></script>
+<script src="/cas/gd-resource/js/jquery.slides.min.js"></script>
+<script src="/cas/ccssoft-js/libs/bootstrap/js/bootstrap.js"></script>
+<script src="/cas/gd-resource/js/unslider.js"></script>
+<script src="/cas/ccssoft-js/login/des.js" type="text/javascript"></script>
+<script src="/cas/ccssoft-js/login/caslogin.js?v=1.0.4" type="text/javascript"></script>
+<script src="/cas/ccssoft-js/login/verifyCode.js" type="text/javascript"></script>
+<script src="/cas/ccssoft-js/login/logonVerifier.js" type="text/javascript"></script>
+<!-- jquery dialog -->
+<script src="/cas/ccssoft-js/jqueryDialog/jquery-ui.min.js" type="text/javascript"></script>
+<!-- ip util -->
+<script src="/cas/ccssoft-js/login/IpUtil.js?v=1.0.0" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(function() {
+    window.contextPath = "/cas";
+    window.qryStrPath = "?service=http%3A%2F%2F132.121.92.224%3A8813%2Ftelant%2Fpage%2Flogin.jsp%3Bjsessionid%3DzFPro80UYYN98agQAnvqjVb8PIDZzoGCNanuPt_jr10OZXKN86VD%211684110091";
+
+    // 上传用户ip地址
+    try {
+        IpUtil.getIps(function(ip) {
+            $.ajax({
+                type: "POST",
+                datatype: 'json',
+                data: {
+                    ip: ip
+                },
+                url: window.contextPath + "/servlet/logonVerifier/currentUserLocalIP",
+                success: function(result) {
+                    // do something here.
+                }
+            });
+        });
+    } catch (e) {
+        console.log("为保证系统正常使用，请使用推荐浏览器（Firefox）及安装对应的插件");
+    }
+    
+    // 安卓下载二维码显示
+    $("#androidmgr").mouseenter(function(){
+        document.getElementById("EWM").style.display = 'block';
+    }).mouseleave(function(){
+        document.getElementById("EWM").style.display = 'none';
+    });
+
+    var demo = document.getElementById("demo");
+    var demo1 = document.getElementById("demo1");
+    var demo2 = document.getElementById("demo2");
+    demo2.innerHTML=document.getElementById("demo1").innerHTML;
+    function Marquee(){
+    if(demo.scrollLeft-demo2.offsetWidth>=0){
+     demo.scrollLeft-=demo1.offsetWidth;
+    }
+    else{
+     demo.scrollLeft++;
+    }
+    }
+    var myvar=setInterval(Marquee,30);
+    demo.onmouseout=function (){myvar=setInterval(Marquee,30);}
+    demo.onmouseover=function(){clearInterval(myvar);}
+
+    if("" != "" && "" != null){
+        window.userName = "";
+    }
+});
+</script>
+
+<!-- this code must be in the end -->
+
+</html>
