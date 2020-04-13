@@ -10,14 +10,40 @@
 # @修改时间：2019/4/21 17:36
 # @文件说明：
 """""" """""" """""" """""" ""
-def fn(n):
-    for i in range(n):
-        yield i
+# import wx
+# class Wxshow(wx.App):
+#     def OnInit(self):
+#         frame=wx.Frame(None,title='Hello,world！')
+#         frame.Show()
+#         return True
+#
+# if __name__ == '__main__':
+#     app=Wxshow('hellow,world!')
+#     app.MainLoop()
 
 
-nums=list(range(10))
-# for i in range(31): 
-#     print(i+1,fn(i+1)).
-for i in range(10):
 
-    print(fn(10))
+
+
+
+class A:
+    z=0
+    def __init__(self,x,y):
+        loc
+        self.x=x
+        self.y=y
+        self.z+=1
+        print('z',self.z)
+    def __add__(self, f):
+        a=self.x+f.x
+        b=self.y+f.y
+        print('a+b',a,b)
+    def __str__(self):
+        return str(self.x)
+    def __repr__(self):
+        return self.y
+a=A(1,2)
+b=A(5,6)
+C=A(1,2)
+print(a)
+
