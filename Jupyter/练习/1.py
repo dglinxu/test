@@ -6,12 +6,11 @@
 '''说明： 
 ----------------------------'''
 
+name='阿土仔'
 
-import pandas as pd
-import numpy as np
-data=pd.DataFrame()     可以使用 鼠标中键 点击这个类 #    咖啡机诶可以使用 鼠标中键 点击这个类
-print('abcdef')
-print('abcdef')
-print('abcdef')
-print('abcdef')
-print('abcdef')  'abcdef'
+def f1():
+    global name
+    name+='在f1'
+    print(name)
+
+f1()
