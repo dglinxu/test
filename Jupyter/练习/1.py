@@ -6,11 +6,29 @@
 '''说明： 
 ----------------------------'''
 
-name='阿土仔'
+class People:
+    def __init__(self,name,city):
+        self.name=name
+        self.city=city
 
-def f1():
-    global name
-    name+='在f1'
-    print(name)
 
-f1()
+    def __str__(self):
+        s='{}-{}'.format(self.city,self.name)
+        return s
+
+    __repr__ = __str__
+
+    def move_to_city(self,newcity):
+        self.city=newcity
+
+    def __lt__(self, other):
+        return str(self.city)<str(other.city)
+
+a=People('赵子龙','常山')
+b=People('张飞','燕人')
+c=People('孙悟空','花果山')
+d=People('刘邦','沛县')
+e=People(10,12)
+a_list=[a,b,c,d,e]
+print(a_list)
+print(sorted(a_list))

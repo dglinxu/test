@@ -7,6 +7,7 @@ class LogicGate:
     def getName(self):
         return self.name
 
+
     def getOutput(self):
         self.output = self.performGateLogic()
         return self.output
@@ -134,4 +135,4 @@ def main2():
    c3 = Connector(g3,g4)
    print(g4.getOutput())
 
-main1()
+main2()

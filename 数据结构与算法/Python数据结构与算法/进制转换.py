@@ -5,4 +5,18 @@
 #E-mail: humen@189.cn
 '''说明： 
 ----------------------------'''
+def baseConvert(base,decNumber):
+    digits='0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    stack=[]
+    while decNumber>0:
+        n=decNumber%base
+        stack.append(digits[n])
+        decNumber=decNumber//base
+    base_num=''.join(reversed(stack))
+    return base_num
 
+if __name__ == '__main__':
+    base=16
+    num=1036
+    print(baseConvert(base,num))
+    print('%x'%num)

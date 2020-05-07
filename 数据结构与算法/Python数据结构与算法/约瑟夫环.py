@@ -6,3 +6,29 @@
 '''说明： 
 ----------------------------'''
 
+def josephQue(numlist,n):
+    while len(numlist)>1:
+        for i in range(n-1):
+            numlist.insert(0,numlist.pop())
+        numlist.pop()
+    return numlist[0]
+
+def joseph(numlist,n):
+    numlist_l=len(numlist)
+    index=n-1
+    while numlist_l>1:
+        if index>numlist_l:
+            index=index%numlist_l
+        numlist.pop(index)
+        index+=n-1
+        numlist_l=len(numlist)
+    return numlist[0]
+
+
+if __name__ == '__main__':
+    alist=list(range(99))
+    print(josephQue(alist,7))
+    print(joseph(alist,7))
+
+
+
