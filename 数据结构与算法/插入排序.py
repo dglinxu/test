@@ -9,7 +9,7 @@ def InsertSort(alist):
     #             alist[j]=t
     #             break
     # 以上部分自认为的插入排序
-    length=len(alist)
+
     for i in range(1,length):
         for k in range(i,0,-1):
             if alist[k]<alist[k-1]:
